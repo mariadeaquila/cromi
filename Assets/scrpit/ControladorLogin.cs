@@ -1,14 +1,11 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Obrigatório para gerenciar cenas [1]
+using UnityEngine.SceneManagement;
 
 public class ControladorLogin : MonoBehaviour
 {
-    // Nome da cena que será carregada
-    public string Login;
-
-    // Método para ser chamado pelo botão
-    public void CarregarCena()
+    // Agora recebe o nome da cena como parâmetro
+    public void CarregarCena(string nomeDaCena)
     {
-        SceneManager.LoadScene(Login);
+        SceneManager.LoadScene(nomeDaCena);
     }
 }
