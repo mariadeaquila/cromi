@@ -15,6 +15,9 @@ public class PerfilUsuario : MonoBehaviour
     public GameObject telaConfiguracoes;
     public GameObject telaTermos;
 
+    public GameObject foto;
+    public GameObject foto2;
+
     private bool editando = false;
 
     void Start()
@@ -98,4 +101,17 @@ public class PerfilUsuario : MonoBehaviour
         telaConfiguracoes.SetActive(false);
         telaTermos.SetActive(false);
     }
+
+    public void Trocarfoto()
+    {
+        foto.SetActive(false);
+        foto2.SetActive(true);
+    }
+
+    public void Voltarfoto()
+    {
+        foto.SetActive(true);
+        foto2.SetActive(false);
+    }
+
 }
