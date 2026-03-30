@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bemvindo.unity
     guid: d50616d40a4ad0747aaaa7756ee8318e
+  - enabled: 1
+    path: Assets/Scenes/Termosecondicao.unity
+    guid: 1bb78a797329e4f438ec72ba70f7aebf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
