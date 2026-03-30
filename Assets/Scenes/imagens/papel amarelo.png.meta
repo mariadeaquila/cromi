@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4e06105f3efb41c4ca6576bc813e60fc
+guid: 37ae99d543d2f454fb6ab55c114377dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4021081617144275761
-    second: Group 10_0
+      213: 3193355644543609002
+    second: papel amarelo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group 10_0
+      name: papel amarelo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 204
-        height: 215
+        width: 277
+        height: 299
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fcc1345e29f3238c0800000000000000
-      internalID: -4021081617144275761
+      spriteID: aa8a2822a04115c20800000000000000
+      internalID: 3193355644543609002
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Group 10_0: -4021081617144275761
+      papel amarelo_0: 3193355644543609002
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
