@@ -32,9 +32,22 @@ public class PerfilUsuario : MonoBehaviour
         senhaInput.text = PlayerPrefs.GetString("senha", "");
 
         textoBotao.text = "editar";
+
+        int fotoSalva = PlayerPrefs.GetInt("fotoSelecionada", 1);
+
+        if (fotoSalva == 1)
+        {
+            foto.SetActive(true);
+            foto2.SetActive(false);
+        }
+        else
+        {
+            foto.SetActive(false);
+            foto2.SetActive(true);
+        }
     }
 
-    public void BotaoEditar()
+public void BotaoEditar()
     {
         editando = !editando;
 
@@ -106,12 +119,18 @@ public class PerfilUsuario : MonoBehaviour
     {
         foto.SetActive(false);
         foto2.SetActive(true);
+
+        PlayerPrefs.SetInt("fotoSelecionada", 2);
+        PlayerPrefs.Save();
     }
 
     public void Voltarfoto()
     {
         foto.SetActive(true);
         foto2.SetActive(false);
+
+        PlayerPrefs.SetInt("fotoSelecionada", 1);
+        PlayerPrefs.Save();
     }
 
 }
