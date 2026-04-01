@@ -1,0 +1,45 @@
+Report created: 
+	4/1/2026	11:07:35 AM
+
+Project name: Splashscrren.aep
+
+Source files collected to: 
+	C:\Users\ra00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL
+
+Source files collected: All
+
+Collected comps:  
+	splash screen oficial
+	
+Number of collected files:  19
+
+Size of collected files:  121 KB
+
+Collected source files: 
+	C:\Users\ra00359039\Downloads\Ellipse 11.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\A.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\C.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\CROMIA.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Ellipse 10.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Ellipse 11.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Ellipse 9.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\I.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\M.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\O.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Polygon 1.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Polygon 2.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\R.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Union.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Vector (2).png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Vector-1.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Vector-2.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Vector-3.png
+	C:\Users\ra00359039\Downloads\Splashscrren pasta versão 2.0-20260401T113251Z-1-001\Splashscrren pasta versão 2.0\(Gravação)\Vector.png
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Fredoka”, Font style: “Bold”
+
