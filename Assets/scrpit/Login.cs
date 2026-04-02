@@ -1,12 +1,11 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Login : MonoBehaviour
 {
     public TMP_InputField emailInput;
     public TMP_InputField senhaInput;
-
     public TextMeshProUGUI mensagem;
 
     public void Entrar()
@@ -14,22 +13,19 @@ public class Login : MonoBehaviour
         string email = emailInput.text;
         string senha = senhaInput.text;
 
-        if (!PlayerPrefs.HasKey(email))
+        if (!BancoDeDados.UsuarioExiste(email))
         {
-            mensagem.text = "Usuário não cadastrado!";
+            mensagem.text = "NÃ£o existe conta com esse email!";
             return;
         }
 
-        string senhaSalva = PlayerPrefs.GetString(email);
-
-        if (senha == senhaSalva)
+        if (BancoDeDados.LoginCorreto(email, senha))
         {
-            mensagem.text = "Login realizado!";
-            SceneManager.LoadScene("Home"); // sua próxima cena
+            SceneManager.LoadScene("Perfil");
         }
         else
         {
-            mensagem.text = "Email ou senha incorretos!";
+            mensagem.text = "Senha incorreta!";
         }
     }
 }

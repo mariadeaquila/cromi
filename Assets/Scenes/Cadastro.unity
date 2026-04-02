@@ -1209,7 +1209,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 967850975}
         m_TargetAssemblyTypeName: Cadastro, Assembly-CSharp
-        m_MethodName: Registrar
+        m_MethodName: Cadastrar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1797,7 +1797,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 170, y: -68}
-  m_SizeDelta: {x: 35, y: 35}
+  m_SizeDelta: {x: 25, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &538095713
 MonoBehaviour:
@@ -2773,7 +2773,6 @@ MonoBehaviour:
   emailInput: {fileID: 1817287937}
   senhaInput: {fileID: 172880185}
   confirmarSenhaInput: {fileID: 1636741186}
-  termosToggle: {fileID: 0}
   mensagem: {fileID: 0}
 --- !u!1 &968320623
 GameObject:
@@ -5095,7 +5094,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -60, y: -68}
-  m_SizeDelta: {x: 35, y: 35}
+  m_SizeDelta: {x: 25, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733547168
 MonoBehaviour:
