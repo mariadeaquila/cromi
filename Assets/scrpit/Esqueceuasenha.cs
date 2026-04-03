@@ -1,27 +1,20 @@
 using UnityEngine;
 using TMPro;
 
-public class RecuperarSenha : MonoBehaviour
+public class EsqueceuSenha : MonoBehaviour
 {
     public TMP_InputField emailInput;
-    public TMP_InputField novaSenhaInput;
-
     public TextMeshProUGUI mensagem;
 
-    public void RedefinirSenha()
+    public void Recuperar()
     {
-        string email = emailInput.text;
-        string novaSenha = novaSenhaInput.text;
-
-        if (!PlayerPrefs.HasKey(email))
+        if (PlayerPrefs.GetString("email") == emailInput.text)
         {
-            mensagem.text = "Email n„o encontrado!";
-            return;
+            mensagem.text = "Senha: " + PlayerPrefs.GetString("senha");
         }
-
-        PlayerPrefs.SetString(email, novaSenha);
-        PlayerPrefs.Save();
-
-        mensagem.text = "Senha redefinida com sucesso!";
+        else
+        {
+            mensagem.text = "Email n√£o encontrado!";
+        }
     }
 }

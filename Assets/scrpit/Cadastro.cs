@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
-using TMPro; // IMPORTANTE
+using TMPro;
 
 public class Cadastro : MonoBehaviour
 {
@@ -11,49 +10,26 @@ public class Cadastro : MonoBehaviour
     public TMP_InputField senhaInput;
     public TMP_InputField confirmarSenhaInput;
 
-    public Toggle termosToggle;
-
     public TextMeshProUGUI mensagem;
 
-    public void Registrar()
+    public void Cadastrar()
     {
-        string nome = nomeInput.text;
-        string idade = idadeInput.text;
-        string condicao = condicaoInput.text;
-        string email = emailInput.text;
-        string senha = senhaInput.text;
-        string confirmarSenha = confirmarSenhaInput.text;
-
-        if (nome == "" || idade == "" || condicao == "" || email == "" || senha == "" || confirmarSenha == "")
-        {
-            mensagem.text = "Preencha todos os campos!";
-            return;
-        }
-
-        if (!termosToggle.isOn)
-        {
-            mensagem.text = "Aceite os termos e condições!";
-            return;
-        }
-
-        if (senha != confirmarSenha)
+        if (senhaInput.text != confirmarSenhaInput.text)
         {
             mensagem.text = "As senhas não coincidem!";
             return;
         }
 
-        if (PlayerPrefs.HasKey(email))
-        {
-            mensagem.text = "Usuário já cadastrado!";
-            return;
-        }
+        int idade = 0;
+        int.TryParse(idadeInput.text, out idade);
 
-        PlayerPrefs.SetString(email + "_nome", nome);
-        PlayerPrefs.SetString(email + "_idade", idade);
-        PlayerPrefs.SetString(email + "_condicao", condicao);
-        PlayerPrefs.SetString(email, senha);
-
-        PlayerPrefs.Save();
+        BancoDeDados.SalvarUsuario(
+            nomeInput.text,
+            idade,
+            condicaoInput.text,
+            emailInput.text,
+            senhaInput.text
+        );
 
         mensagem.text = "Cadastro realizado com sucesso!";
     }
