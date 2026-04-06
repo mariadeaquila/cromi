@@ -1,69 +1,93 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class respostas : MonoBehaviour
+public class QuizManager : MonoBehaviour
 {
+    [Header("Painéis")]
     public GameObject painelCorreto;
     public GameObject painelErrado;
+    public GameObject painelExplicacaoCorreta;
+    public GameObject painelExplicacaoErrado;
 
-    public GameObject panelexplicacaocorreta;
-    public GameObject panelexplicacaoerrado;
-    public GameObject tentenovamente;
-    public GameObject continuar;
+    [Header("Navegação")]
+    public GameObject painelAtual;
+    public GameObject proximoPainel;
 
+    [Header("Botões")]
+    public Button[] botoes;
+
+    [Header("Imagens")]
     public Sprite imagemVerde;
     public Sprite imagemVermelha;
 
-    public Button[] botoes; // lista de todos os botões
-
+    // 🔒 trava botões
     void TravarBotoes()
     {
         foreach (Button b in botoes)
         {
-            b.interactable = false; // trava
+            b.interactable = false;
         }
     }
 
-    public void RespostaCorreta(GameObject botao)
+    // 🔓 libera botões
+    void LiberarBotoes()
     {
+        foreach (Button b in botoes)
+        {
+            b.interactable = true;
+        }
+    }
+
+    // ✅ resposta correta
+    public void RespostaCorreta()
+    {
+        GameObject botao = EventSystem.current.currentSelectedGameObject;
         botao.GetComponent<Image>().sprite = imagemVerde;
+
         painelCorreto.SetActive(true);
         TravarBotoes();
     }
 
-    public void RespostaErrada(GameObject botao)
+    // ❌ resposta errada
+    public void RespostaErrada()
     {
+        GameObject botao = EventSystem.current.currentSelectedGameObject;
         botao.GetComponent<Image>().sprite = imagemVermelha;
+
         painelErrado.SetActive(true);
         TravarBotoes();
     }
 
+    // 📘 explicação correta
     public void ExplicacaoCorreta()
     {
-        painelCorreto.SetActive(false); // fecha o de acerto
-        panelexplicacaocorreta.SetActive(true); // abre explicação
+        painelCorreto.SetActive(false);
+        painelExplicacaoCorreta.SetActive(true);
     }
 
+    // 📕 explicação errada
     public void ExplicacaoErrado()
     {
-        painelErrado.SetActive(false); // fecha o de erro
-        panelexplicacaoerrado.SetActive(true); // abre explicação
+        painelErrado.SetActive(false);
+        painelExplicacaoErrado.SetActive(true);
     }
 
+    // 🔁 tentar novamente
     public void TentarNovamente()
     {
-    painelErrado.SetActive(false); // fecha erro
-    panelexplicacaoerrado.SetActive(false); // fecha explicação erro
+        painelErrado.SetActive(false);
+        painelExplicacaoErrado.SetActive(false);
+        LiberarBotoes();
+    }
 
-    // reativa botões
-    foreach (Button b in botoes)
-    {
-        b.interactable = true;
-    }
-    }
+    // ➡️ continuar (vai pra próxima atividade)
     public void Continuar()
     {
-        panelexplicacaocorreta.SetActive(false); // fecha explicação correta
-        // aqui você pode ir pra próxima fase depois
+        painelExplicacaoCorreta.SetActive(false);
+        painelCorreto.SetActive(false);
+
+        painelAtual.SetActive(false);
+        proximoPainel.SetActive(true);
     }
 }
