@@ -1,36 +1,67 @@
-﻿using UnityEngine;
-using TMPro;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using PlayFab;
+using PlayFab.ClientModels;
+using Newtonsoft.Json;
+using UnityEngine.UI;
 
 public class Cadastro : MonoBehaviour
 {
-    public TMP_InputField nomeInput;
-    public TMP_InputField idadeInput;
-    public TMP_InputField condicaoInput;
-    public TMP_InputField emailInput;
-    public TMP_InputField senhaInput;
-    public TMP_InputField confirmarSenhaInput;
+    [Header("UI")]
+    public Text messageText;
+    public InputField emailInput;
+    public InputField passwordInput;
 
-    public TextMeshProUGUI mensagem;
-
-    public void Cadastrar()
-    {
-        if (senhaInput.text != confirmarSenhaInput.text)
-        {
-            mensagem.text = "As senhas não coincidem!";
+    public void RegisterButton() {
+        if (passwordInput.text.Lengh < 6) {
+            messageText.text = "Password too short";
             return;
         }
 
-        int idade = 0;
-        int.TryParse(idadeInput.text, out idade);
-
-        BancoDeDados.SalvarUsuario(
-            nomeInput.text,
-            idade,
-            condicaoInput.text,
-            emailInput.text,
-            senhaInput.text
-        );
-
-        mensagem.text = "Cadastro realizado com sucesso!";
+        var request = new RegisterPlayFabUserRequest {
+            Email = emailInput.text,
+            Password = passwordInput.text,
+            RequiredBothUsernameAndEmail = false
+        };
+        PlayFabClientAPI.RegisterPlayFabUser(request, OnRegisterSucess, OnError);
     }
+
+void OnRegisterSucess(RegisterPlayFabUserResult result) {
+    messageText.text = "Registered and logged in";
+}
+
+public void LoginButton() {
+
+}
+
+public void ResetPasswordButton() {
+
+}
+void OnPasswordReset(SendAccountRecoveryEmailResult result)
+
+// Loggin in
+void Start()
+void Login()
+void OnLoginSucess(LoginResult result)
+
+// Player data
+public void GetAppearance()
+void OnDataRecieved(GetUserDataResult result)
+public void SaveAppearance()
+void OnDataSend(UpdateUserDataResult result)
+
+// Title data
+void GetTitleData()
+void OnTitleDataRecieved(GetTitleDataResult result)
+
+// Handling JSON
+public void SaveCharacters()
+public void GetCharacters()
+void OnCharactersDataReceived(GetUserDataResult result)
+
+// Other
+void OnError(PlayFabError error) {
+    messageText.text = error.ErrorMessage;
+    Debug.Log(error.GenerateErrorReport());
+}
 }

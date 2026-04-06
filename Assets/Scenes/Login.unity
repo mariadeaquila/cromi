@@ -450,7 +450,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902087038}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Login, Assembly-CSharp
         m_MethodName: Entrar
         m_Mode: 1
@@ -1017,7 +1017,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RecuperarSenha
   emailInput: {fileID: 0}
-  novaSenhaInput: {fileID: 0}
   mensagem: {fileID: 0}
 --- !u!1 &442286084
 GameObject:
@@ -1601,7 +1600,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902087038}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Login, Assembly-CSharp
         m_MethodName: Entrar
         m_Mode: 1
@@ -2360,7 +2359,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902087038}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Login, Assembly-CSharp
         m_MethodName: Entrar
         m_Mode: 1
@@ -2488,7 +2487,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Mensagem
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2497,8 +2496,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2522,7 +2521,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2917,11 +2916,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1902087032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c316ddb57dc436e4db96c4165788827e, type: 3}
+  m_Script: {fileID: 11500000, guid: c2322ee55b5e25146adc102a44219812, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Login
+  m_EditorClassIdentifier: Assembly-CSharp::Cadastro
+  nomeInput: {fileID: 0}
+  idadeInput: {fileID: 0}
+  condicaoInput: {fileID: 0}
   emailInput: {fileID: 0}
   senhaInput: {fileID: 0}
+  confirmarSenhaInput: {fileID: 0}
   mensagem: {fileID: 0}
 --- !u!1 &2007197097
 GameObject:
