@@ -14,14 +14,47 @@ public class Cadastro : MonoBehaviour
 
     public void Cadastrar()
     {
-        if (senhaInput.text != confirmarSenhaInput.text)
+        if (string.IsNullOrEmpty(nomeInput.text) ||
+            string.IsNullOrEmpty(idadeInput.text) ||
+            string.IsNullOrEmpty(condicaoInput.text) ||
+            string.IsNullOrEmpty(emailInput.text) ||
+            string.IsNullOrEmpty(senhaInput.text) ||
+            string.IsNullOrEmpty(confirmarSenhaInput.text))
         {
-            mensagem.text = "As senhas não coincidem!";
+            mensagem.text = "⚠️ Preencha todos os campos!";
             return;
         }
 
         int idade = 0;
-        int.TryParse(idadeInput.text, out idade);
+        if (!int.TryParse(idadeInput.text, out idade))
+        {
+            mensagem.text = "⚠️ Digite uma idade válida!";
+            return;
+        }
+
+        if (!emailInput.text.Contains("@") || !emailInput.text.Contains("."))
+        {
+            mensagem.text = "⚠️ Email inválido!";
+            return;
+        }
+
+        if (senhaInput.text.Length < 4)
+        {
+            mensagem.text = "⚠️ A senha deve ter pelo menos 4 caracteres!";
+            return;
+        }
+
+        if (senhaInput.text != confirmarSenhaInput.text)
+        {
+            mensagem.text = "⚠️ As senhas não coincidem!";
+            return;
+        }
+
+        if (BancoDeDados.UsuarioExiste(emailInput.text))
+        {
+            mensagem.text = "⚠️ Já existe uma conta com esse email!";
+            return;
+        }
 
         BancoDeDados.SalvarUsuario(
             nomeInput.text,
@@ -31,6 +64,18 @@ public class Cadastro : MonoBehaviour
             senhaInput.text
         );
 
-        mensagem.text = "Cadastro realizado com sucesso!";
+        mensagem.text = "✅ Cadastro realizado com sucesso!";
+
+        LimparCampos();
+    }
+
+    void LimparCampos()
+    {
+        nomeInput.text = "";
+        idadeInput.text = "";
+        condicaoInput.text = "";
+        emailInput.text = "";
+        senhaInput.text = "";
+        confirmarSenhaInput.text = "";
     }
 }
