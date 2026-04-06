@@ -21,7 +21,7 @@ public class Login : MonoBehaviour
 
         if (BancoDeDados.LoginCorreto(email, senha))
         {
-            SceneManager.LoadScene("Perfil");
+            SceneManager.LoadScene("Bemvindo");
         }
         else
         {
