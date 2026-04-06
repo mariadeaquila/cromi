@@ -2767,12 +2767,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2322ee55b5e25146adc102a44219812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cadastro
-  nomeInput: {fileID: 459868393}
-  idadeInput: {fileID: 219780017}
-  condicaoInput: {fileID: 583276026}
-  emailInput: {fileID: 1817287937}
-  senhaInput: {fileID: 172880185}
-  confirmarSenhaInput: {fileID: 1636741186}
+  nomeInput: {fileID: 0}
+  idadeInput: {fileID: 0}
+  condicaoInput: {fileID: 0}
+  emailInput: {fileID: 0}
+  senhaInput: {fileID: 0}
+  confirmarSenhaInput: {fileID: 0}
   mensagem: {fileID: 0}
 --- !u!1 &968320623
 GameObject:
