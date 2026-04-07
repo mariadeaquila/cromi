@@ -21,38 +21,38 @@ public class Cadastro : MonoBehaviour
             string.IsNullOrEmpty(senhaInput.text) ||
             string.IsNullOrEmpty(confirmarSenhaInput.text))
         {
-            mensagem.text = "⚠️ Preencha todos os campos!";
+            mensagem.text = "Preencha todos os campos!";
             return;
         }
 
         int idade = 0;
         if (!int.TryParse(idadeInput.text, out idade))
         {
-            mensagem.text = "⚠️ Digite uma idade válida!";
+            mensagem.text = "Digite uma idade válida!";
             return;
         }
 
         if (!emailInput.text.Contains("@") || !emailInput.text.Contains("."))
         {
-            mensagem.text = "⚠️ Email inválido!";
+            mensagem.text = "Email inválido!";
             return;
         }
 
         if (senhaInput.text.Length < 4)
         {
-            mensagem.text = "⚠️ A senha deve ter pelo menos 4 caracteres!";
+            mensagem.text = "A senha deve ter pelo menos 4 caracteres!";
             return;
         }
 
         if (senhaInput.text != confirmarSenhaInput.text)
         {
-            mensagem.text = "⚠️ As senhas não coincidem!";
+            mensagem.text = "As senhas não coincidem!";
             return;
         }
 
         if (BancoDeDados.UsuarioExiste(emailInput.text))
         {
-            mensagem.text = "⚠️ Já existe uma conta com esse email!";
+            mensagem.text = "Já existe uma conta com esse email!";
             return;
         }
 
@@ -64,7 +64,7 @@ public class Cadastro : MonoBehaviour
             senhaInput.text
         );
 
-        mensagem.text = "✅ Cadastro realizado com sucesso!";
+        mensagem.text = "Cadastro realizado com sucesso!";
 
         LimparCampos();
     }
