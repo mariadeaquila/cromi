@@ -1,5 +1,4 @@
-using TMPro;
-using Unity.VisualScripting;
+﻿using TMPro;
 using UnityEngine;
 
 public class PerfilUsuario : MonoBehaviour
@@ -11,7 +10,7 @@ public class PerfilUsuario : MonoBehaviour
 
     public TextMeshProUGUI textoBotao;
 
-    public GameObject telaPerfil; 
+    public GameObject telaPerfil;
     public GameObject telaConfiguracoes;
     public GameObject telaTermos;
 
@@ -22,12 +21,15 @@ public class PerfilUsuario : MonoBehaviour
 
     void Start()
     {
-        // Come�a travado
+        // Começa travado
         SetCamposEditaveis(false);
 
-        // Carregar dados
+        // 🔥 CARREGAR DADOS DO CADASTRO (CORRIGIDO)
         nomeInput.text = PlayerPrefs.GetString("nome", "");
-        idadeInput.text = PlayerPrefs.GetString("idade", "");
+
+        int idade = PlayerPrefs.GetInt("idade", 0);
+        idadeInput.text = idade.ToString();
+
         emailInput.text = PlayerPrefs.GetString("email", "");
         senhaInput.text = PlayerPrefs.GetString("senha", "");
 
@@ -47,7 +49,7 @@ public class PerfilUsuario : MonoBehaviour
         }
     }
 
-public void BotaoEditar()
+    public void BotaoEditar()
     {
         editando = !editando;
 
@@ -75,9 +77,15 @@ public void BotaoEditar()
     void SalvarDados()
     {
         PlayerPrefs.SetString("nome", nomeInput.text);
-        PlayerPrefs.SetString("idade", idadeInput.text);
+
+        // 🔥 CORREÇÃO DA IDADE
+        int idade = 0;
+        int.TryParse(idadeInput.text, out idade);
+        PlayerPrefs.SetInt("idade", idade);
+
         PlayerPrefs.SetString("email", emailInput.text);
         PlayerPrefs.SetString("senha", senhaInput.text);
+
         PlayerPrefs.Save();
 
         Debug.Log("Salvo!");
@@ -85,23 +93,20 @@ public void BotaoEditar()
 
     public void AbrirConfiguracoes()
     {
-        Debug.Log("CLICOU");
         telaPerfil.SetActive(false);
         telaConfiguracoes.SetActive(true);
         telaTermos.SetActive(false);
-       
     }
 
     public void AbrirTermos()
     {
-        Debug.Log("CLICOU");
         telaPerfil.SetActive(false);
         telaConfiguracoes.SetActive(false);
         telaTermos.SetActive(true);
     }
+
     public void FecharConfiguracoes()
     {
-        Debug.Log("CLICOU");
         telaPerfil.SetActive(true);
         telaConfiguracoes.SetActive(false);
         telaTermos.SetActive(false);
@@ -109,7 +114,6 @@ public void BotaoEditar()
 
     public void FecharTermos()
     {
-        Debug.Log("CLICOU");
         telaPerfil.SetActive(true);
         telaConfiguracoes.SetActive(false);
         telaTermos.SetActive(false);
@@ -132,5 +136,4 @@ public void BotaoEditar()
         PlayerPrefs.SetInt("fotoSelecionada", 1);
         PlayerPrefs.Save();
     }
-
 }

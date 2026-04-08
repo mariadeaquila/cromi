@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using TMPro;
+﻿using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Cadastro : MonoBehaviour
 {
@@ -56,6 +57,7 @@ public class Cadastro : MonoBehaviour
             return;
         }
 
+        // 🔥 SALVAR NO BANCO (seu sistema)
         BancoDeDados.SalvarUsuario(
             nomeInput.text,
             idade,
@@ -64,18 +66,17 @@ public class Cadastro : MonoBehaviour
             senhaInput.text
         );
 
+        // 🔥 SALVAR NO PLAYERPREFS (IMPORTANTE PRO PERFIL)
+        PlayerPrefs.SetString("nome", nomeInput.text);
+        PlayerPrefs.SetInt("idade", idade);
+        PlayerPrefs.SetString("email", emailInput.text);
+        PlayerPrefs.SetString("senha", senhaInput.text);
+
+        PlayerPrefs.Save();
+
         mensagem.text = "Cadastro realizado com sucesso!";
 
-        LimparCampos();
+        SceneManager.LoadScene("Bemvindo"); ;
     }
 
-    void LimparCampos()
-    {
-        nomeInput.text = "";
-        idadeInput.text = "";
-        condicaoInput.text = "";
-        emailInput.text = "";
-        senhaInput.text = "";
-        confirmarSenhaInput.text = "";
-    }
 }
