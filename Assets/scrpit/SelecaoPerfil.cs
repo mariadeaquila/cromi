@@ -1,49 +1,40 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SelecaoPerfil : MonoBehaviour
+public class AvatarSelector : MonoBehaviour
 {
-    public Image imagemPerfil;
+    public Image imagem;     // imagem na tela
     public Sprite[] avatares;
 
-    private int indiceAtual = 0;
+    private int index = 0;
 
     void Start()
     {
-        AtualizarImagem();
+        imagem.sprite = avatares[index];
     }
 
-    public void Proximo()
+    public void Direita()
     {
-        indiceAtual++;
+        index++;
 
-        if (indiceAtual >= avatares.Length)
-        {
-            indiceAtual = 0;
-        }
+        if (index >= avatares.Length)
+            index = 0;
 
-        AtualizarImagem();
+        imagem.sprite = avatares[index];
     }
 
-    public void Anterior()
+    public void Esquerda()
     {
-        indiceAtual--;
+        index--;
 
-        if (indiceAtual < 0)
-        {
-            indiceAtual = avatares.Length - 1;
-        }
+        if (index < 0)
+            index = avatares.Length - 1;
 
-        AtualizarImagem();
+        imagem.sprite = avatares[index];
     }
 
-    void AtualizarImagem()
+    public int GetIndex()
     {
-        imagemPerfil.sprite = avatares[indiceAtual];
-    }
-
-    public int GetIndiceSelecionado()
-    {
-        return indiceAtual;
+        return index;
     }
 }

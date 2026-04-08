@@ -2943,6 +2943,7 @@ GameObject:
   - component: {fileID: 1364261639}
   - component: {fileID: 1364261638}
   - component: {fileID: 1364261637}
+  - component: {fileID: 1364261641}
   m_Layer: 5
   m_Name: CanvasInicio
   m_TagString: Untagged
@@ -3036,6 +3037,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1364261641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364261636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7657c675abc8d604c98b7a6615a1541c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrocarTela
 --- !u!1 &1439305662
 GameObject:
   m_ObjectHideFlags: 0
@@ -3376,6 +3389,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Footer
       objectReference: {fileID: 0}
+    - target: {fileID: 3312047935670997070, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312047935670997070, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312047935670997070, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1364261636}
+    - target: {fileID: 3312047935670997070, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4544128262678301641, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -168.5037
@@ -3419,13 +3448,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1224089458553221288, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1486877557}
   m_SourcePrefab: {fileID: 100100000, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
 --- !u!4 &1486877555 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4544128262678301641, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
   m_PrefabInstance: {fileID: 1486877554}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1486877556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1224089458553221288, guid: 5a573b1c3a8845b4eb6468e2302bbafa, type: 3}
+  m_PrefabInstance: {fileID: 1486877554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1486877557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486877556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7657c675abc8d604c98b7a6615a1541c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrocarTela
 --- !u!1 &1561512401
 GameObject:
   m_ObjectHideFlags: 0
