@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
-using TMPro; // IMPORTANTE
+using TMPro;
 
 public class Cadastro : MonoBehaviour
 {
@@ -11,50 +10,72 @@ public class Cadastro : MonoBehaviour
     public TMP_InputField senhaInput;
     public TMP_InputField confirmarSenhaInput;
 
-    public Toggle termosToggle;
-
     public TextMeshProUGUI mensagem;
 
-    public void Registrar()
+    public void Cadastrar()
     {
-        string nome = nomeInput.text;
-        string idade = idadeInput.text;
-        string condicao = condicaoInput.text;
-        string email = emailInput.text;
-        string senha = senhaInput.text;
-        string confirmarSenha = confirmarSenhaInput.text;
-
-        if (nome == "" || idade == "" || condicao == "" || email == "" || senha == "" || confirmarSenha == "")
+        if (string.IsNullOrEmpty(nomeInput.text) ||
+            string.IsNullOrEmpty(idadeInput.text) ||
+            string.IsNullOrEmpty(condicaoInput.text) ||
+            string.IsNullOrEmpty(emailInput.text) ||
+            string.IsNullOrEmpty(senhaInput.text) ||
+            string.IsNullOrEmpty(confirmarSenhaInput.text))
         {
             mensagem.text = "Preencha todos os campos!";
             return;
         }
 
-        if (!termosToggle.isOn)
+        int idade = 0;
+        if (!int.TryParse(idadeInput.text, out idade))
         {
-            mensagem.text = "Aceite os termos e condições!";
+            mensagem.text = "Digite uma idade válida!";
             return;
         }
 
-        if (senha != confirmarSenha)
+        if (!emailInput.text.Contains("@") || !emailInput.text.Contains("."))
+        {
+            mensagem.text = "Email inválido!";
+            return;
+        }
+
+        if (senhaInput.text.Length < 4)
+        {
+            mensagem.text = "A senha deve ter pelo menos 4 caracteres!";
+            return;
+        }
+
+        if (senhaInput.text != confirmarSenhaInput.text)
         {
             mensagem.text = "As senhas não coincidem!";
             return;
         }
 
-        if (PlayerPrefs.HasKey(email))
+        if (BancoDeDados.UsuarioExiste(emailInput.text))
         {
-            mensagem.text = "Usuário já cadastrado!";
+            mensagem.text = "Já existe uma conta com esse email!";
             return;
         }
 
-        PlayerPrefs.SetString(email + "_nome", nome);
-        PlayerPrefs.SetString(email + "_idade", idade);
-        PlayerPrefs.SetString(email + "_condicao", condicao);
-        PlayerPrefs.SetString(email, senha);
-
-        PlayerPrefs.Save();
+        BancoDeDados.SalvarUsuario(
+            nomeInput.text,
+            idade,
+            condicaoInput.text,
+            emailInput.text,
+            senhaInput.text
+        );
 
         mensagem.text = "Cadastro realizado com sucesso!";
+
+        LimparCampos();
+    }
+
+    void LimparCampos()
+    {
+        nomeInput.text = "";
+        idadeInput.text = "";
+        condicaoInput.text = "";
+        emailInput.text = "";
+        senhaInput.text = "";
+        confirmarSenhaInput.text = "";
     }
 }

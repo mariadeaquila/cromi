@@ -1,0 +1,45 @@
+Report created: 
+	4/6/2026	11:05:05 AM
+
+Project name: Splashscrren.aep
+
+Source files collected to: 
+	C:\Users\RA00359039\Downloads\Splashscrren folder AGORA SIM
+
+Source files collected: All
+
+Collected comps:  
+	splash screen oficial
+	
+Number of collected files:  19
+
+Size of collected files:  121 KB
+
+Collected source files: 
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\A.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\C.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\CROMIA.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Ellipse 10.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Ellipse 11.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Ellipse 11_1.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Ellipse 9.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\I.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\M.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\O.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Polygon 1.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Polygon 2.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\R.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Union.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Vector (2).png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Vector-1.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Vector-2.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Vector-3.png
+	C:\Users\RA00359039\Downloads\Splashscrren folder VERSAO OFICIAL E FINAL-20260406T135713Z-1-001\Splashscrren folder VERSAO OFICIAL E FINAL\(Footage)\Vector.png
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Fredoka”, Font style: “Bold”
+
