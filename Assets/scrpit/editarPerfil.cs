@@ -5,14 +5,11 @@ public class PerfilUsuario : MonoBehaviour
 {
     public TMP_InputField nomeInput;
     public TMP_InputField idadeInput;
+    public TMP_InputField condicaoInput;
     public TMP_InputField emailInput;
     public TMP_InputField senhaInput;
 
     public TextMeshProUGUI textoBotao;
-
-    public GameObject telaPerfil;
-    public GameObject telaConfiguracoes;
-    public GameObject telaTermos;
 
     public GameObject foto;
     public GameObject foto2;
@@ -21,10 +18,8 @@ public class PerfilUsuario : MonoBehaviour
 
     void Start()
     {
-        // Começa travado
         SetCamposEditaveis(false);
 
-        // 🔥 CARREGAR DADOS DO CADASTRO (CORRIGIDO)
         nomeInput.text = PlayerPrefs.GetString("nome", "");
 
         int idade = PlayerPrefs.GetInt("idade", 0);
@@ -33,7 +28,9 @@ public class PerfilUsuario : MonoBehaviour
         emailInput.text = PlayerPrefs.GetString("email", "");
         senhaInput.text = PlayerPrefs.GetString("senha", "");
 
-        textoBotao.text = "editar";
+        condicaoInput.text = PlayerPrefs.GetString("condicao", ""); // 🔥
+
+        textoBotao.text = "Editar";
 
         int fotoSalva = PlayerPrefs.GetInt("fotoSelecionada", 1);
 
@@ -72,13 +69,13 @@ public class PerfilUsuario : MonoBehaviour
         idadeInput.interactable = valor;
         emailInput.interactable = valor;
         senhaInput.interactable = valor;
+        condicaoInput.interactable = valor; // 🔥
     }
 
     void SalvarDados()
     {
         PlayerPrefs.SetString("nome", nomeInput.text);
 
-        // 🔥 CORREÇÃO DA IDADE
         int idade = 0;
         int.TryParse(idadeInput.text, out idade);
         PlayerPrefs.SetInt("idade", idade);
@@ -86,37 +83,11 @@ public class PerfilUsuario : MonoBehaviour
         PlayerPrefs.SetString("email", emailInput.text);
         PlayerPrefs.SetString("senha", senhaInput.text);
 
+        PlayerPrefs.SetString("condicao", condicaoInput.text); // 🔥
+
         PlayerPrefs.Save();
 
         Debug.Log("Salvo!");
-    }
-
-    public void AbrirConfiguracoes()
-    {
-        telaPerfil.SetActive(false);
-        telaConfiguracoes.SetActive(true);
-        telaTermos.SetActive(false);
-    }
-
-    public void AbrirTermos()
-    {
-        telaPerfil.SetActive(false);
-        telaConfiguracoes.SetActive(false);
-        telaTermos.SetActive(true);
-    }
-
-    public void FecharConfiguracoes()
-    {
-        telaPerfil.SetActive(true);
-        telaConfiguracoes.SetActive(false);
-        telaTermos.SetActive(false);
-    }
-
-    public void FecharTermos()
-    {
-        telaPerfil.SetActive(true);
-        telaConfiguracoes.SetActive(false);
-        telaTermos.SetActive(false);
     }
 
     public void Trocarfoto()
