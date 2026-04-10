@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2c41b319fb5f8c64daa4e51aab599099
+guid: e592145c3adb12e479b51c0e889f4996
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7340644615731607756
-    second: Ellipse 13_0
+      213: 3231845376359937049
+    second: certo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ellipse 13_0
+      name: certo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 230
-        height: 230
+        width: 288
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4370fe84d9ac02a90800000000000000
-      internalID: -7340644615731607756
+      spriteID: 9143cea2f32d9dc20800000000000000
+      internalID: 3231845376359937049
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ellipse 13_0: -7340644615731607756
+      certo_0: 3231845376359937049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
