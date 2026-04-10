@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 6dc03f0f2111ccf43b87c9b38bf6a076
+guid: 9d23d593a1906fa4183d3cc77254f378
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6222973685731323749
-    second: Vector 1_0
+      213: -4319898219758209541
+    second: caneta_0
+  - first:
+      213: -8855439373551209437
+    second: caneta_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vector 1_0
+      name: caneta_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 108
-        height: 104
+        x: 7
+        y: 84
+        width: 145
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +157,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b90916f476e83a9a0800000000000000
-      internalID: -6222973685731323749
+      spriteID: bf53879f473ac04c0800000000000000
+      internalID: -4319898219758209541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caneta_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 83
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324f871dec82b1580800000000000000
+      internalID: -8855439373551209437
       vertices: []
       indices: 
       edges: []
@@ -174,7 +199,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vector 1_0: -6222973685731323749
+      caneta_0: -4319898219758209541
+      caneta_1: -8855439373551209437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
