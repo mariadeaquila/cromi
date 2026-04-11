@@ -27,6 +27,8 @@ public class QuizManager : MonoBehaviour
         painelCorreto.SetActive(false);
         painelErrado.SetActive(false);
         painelExplicacaoErrado.SetActive(false);
+
+        LiberarBotoes();
     }
 
     void TravarBotoes()
@@ -44,14 +46,6 @@ public class QuizManager : MonoBehaviour
             b.interactable = true;
         }
     }
-
-    void ResetarBotoes()
-{
-    if (EventSystem.current != null)
-    {
-        EventSystem.current.SetSelectedGameObject(null);
-    }
-}
 
     public void RespostaCorreta()
     {
@@ -81,25 +75,31 @@ public class QuizManager : MonoBehaviour
         painelExplicacaoErrado.SetActive(true);
     }
 
-   public void TentarNovamente()
-{
-    painelErrado.SetActive(false);
-    painelExplicacaoErrado.SetActive(false);
-
-    LiberarBotoes();
-
-    StartCoroutine(ResetFocus());
-}
-
-IEnumerator ResetFocus()
-{
-    yield return new WaitForEndOfFrame();
-
-    if (EventSystem.current != null)
+    public void TentarNovamente()
     {
-        EventSystem.current.SetSelectedGameObject(null);
+        StartCoroutine(ResetCanvas());
     }
-}
+
+    IEnumerator ResetCanvas()
+    {
+        yield return new WaitForEndOfFrame();
+
+        painelErrado.SetActive(false);
+        painelExplicacaoErrado.SetActive(false);
+        painelCorreto.SetActive(false);
+
+        painelAtual.SetActive(true);
+
+        LiberarBotoes();
+
+        yield return null;
+
+        if (EventSystem.current != null)
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+        }
+    }
+
     public void Continuar()
     {
         painelCorreto.SetActive(false);
