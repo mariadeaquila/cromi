@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Collections;
 
 public class QuizManager : MonoBehaviour
 {
     [Header("Painéis")]
     public GameObject painelCorreto;
     public GameObject painelErrado;
-    public GameObject painelExplicacaoCorreta;
     public GameObject painelExplicacaoErrado;
 
     [Header("Navegação")]
@@ -17,11 +17,18 @@ public class QuizManager : MonoBehaviour
     [Header("Botões")]
     public Button[] botoes;
 
-    [Header("Imagens")]
-    public Sprite imagemVerde;
-    public Sprite imagemVermelha;
+    [Header("Áudio")]
+    public AudioSource audioSource;
+    public AudioClip somAcerto;
+    public AudioClip somErro;
 
-    // 🔒 trava botões
+    void Start()
+    {
+        painelCorreto.SetActive(false);
+        painelErrado.SetActive(false);
+        painelExplicacaoErrado.SetActive(false);
+    }
+
     void TravarBotoes()
     {
         foreach (Button b in botoes)
@@ -30,7 +37,6 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    // 🔓 libera botões
     void LiberarBotoes()
     {
         foreach (Button b in botoes)
@@ -39,52 +45,63 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    // ✅ resposta correta
+    void ResetarBotoes()
+{
+    if (EventSystem.current != null)
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+    }
+}
+
     public void RespostaCorreta()
     {
-        GameObject botao = EventSystem.current.currentSelectedGameObject;
-        botao.GetComponent<Image>().sprite = imagemVerde;
+        if (audioSource != null && somAcerto != null)
+        {
+            audioSource.PlayOneShot(somAcerto);
+        }
 
         painelCorreto.SetActive(true);
         TravarBotoes();
     }
 
-    // ❌ resposta errada
     public void RespostaErrada()
     {
-        GameObject botao = EventSystem.current.currentSelectedGameObject;
-        botao.GetComponent<Image>().sprite = imagemVermelha;
+        if (audioSource != null && somErro != null)
+        {
+            audioSource.PlayOneShot(somErro);
+        }
 
         painelErrado.SetActive(true);
         TravarBotoes();
     }
 
-    // 📘 explicação correta
-    public void ExplicacaoCorreta()
-    {
-        painelCorreto.SetActive(false);
-        painelExplicacaoCorreta.SetActive(true);
-    }
-
-    // 📕 explicação errada
     public void ExplicacaoErrado()
     {
         painelErrado.SetActive(false);
         painelExplicacaoErrado.SetActive(true);
     }
 
-    // 🔁 tentar novamente
-    public void TentarNovamente()
-    {
-        painelErrado.SetActive(false);
-        painelExplicacaoErrado.SetActive(false);
-        LiberarBotoes();
-    }
+   public void TentarNovamente()
+{
+    painelErrado.SetActive(false);
+    painelExplicacaoErrado.SetActive(false);
 
-    // ➡️ continuar (vai pra próxima atividade)
+    LiberarBotoes();
+
+    StartCoroutine(ResetFocus());
+}
+
+IEnumerator ResetFocus()
+{
+    yield return new WaitForEndOfFrame();
+
+    if (EventSystem.current != null)
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+    }
+}
     public void Continuar()
     {
-        painelExplicacaoCorreta.SetActive(false);
         painelCorreto.SetActive(false);
 
         painelAtual.SetActive(false);
