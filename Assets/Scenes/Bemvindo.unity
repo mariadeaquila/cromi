@@ -1361,8 +1361,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Vamos aprender cores de um jeito divertido.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a12883404ede05242827044c3291e858, type: 2}
-  m_sharedMaterial: {fileID: -3010041111371468634, guid: a12883404ede05242827044c3291e858, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 99b10d6ff3a7a49d0831b89f35b0496e, type: 2}
+  m_sharedMaterial: {fileID: -321935935841354029, guid: 99b10d6ff3a7a49d0831b89f35b0496e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1573,8 +1573,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bem-vindo!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42f143e23975b744388b2556f92514e1, type: 2}
-  m_sharedMaterial: {fileID: -7525093278692884600, guid: 42f143e23975b744388b2556f92514e1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 99b10d6ff3a7a49d0831b89f35b0496e, type: 2}
+  m_sharedMaterial: {fileID: -321935935841354029, guid: 99b10d6ff3a7a49d0831b89f35b0496e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4679,7 +4679,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1569752060
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5872,7 +5872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1955389125
 MonoBehaviour:
   m_ObjectHideFlags: 0
