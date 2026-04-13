@@ -1068,7 +1068,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 71.994, y: 93}
-  m_SizeDelta: {x: 936.0125, y: 5189.843}
+  m_SizeDelta: {x: 936.0125, y: 5460.3516}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1233731069
 MonoBehaviour:
@@ -1503,7 +1503,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 795.9489, y: 4699.7}
+  m_SizeDelta: {x: 795.9489, y: 5098.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831058662
 MonoBehaviour:
@@ -1525,14 +1525,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ao acessar e utilizar o aplicativo Cromi, o usu\xE1rio e/ou seu respons\xE1vel
+  m_text: "Ao acessar e utilizar o aplicativo Cromia, o usu\xE1rio e/ou seu respons\xE1vel
     legal declara que leu, compreendeu e concorda integralmente com os presentes
     Termos e Condi\xE7\xF5es de Uso. Este aplicativo foi desenvolvido com o objetivo
     de auxiliar crian\xE7as, especialmente aquelas com daltonismo, oferecendo uma
     experi\xEAncia educativa, interativa e acess\xEDvel para o aprendizado e reconhecimento
     de cores. Por se tratar de um p\xFAblico infantil, recomenda-se que o uso seja
     realizado sob supervis\xE3o de pais ou respons\xE1veis, que assumem total responsabilidade
-    pela utiliza\xE7\xE3o do aplicativo por menores de idade.\n\nCromi possui car\xE1ter
+    pela utiliza\xE7\xE3o do aplicativo por menores de idade.\n\nCromia possui car\xE1ter
     exclusivamente educativo e recreativo, n\xE3o devendo ser utilizado como substituto
     de diagn\xF3stico m\xE9dico, avalia\xE7\xE3o profissional ou qualquer tipo de
     tratamento especializado. Embora nos esforcemos para oferecer uma experi\xEAncia
@@ -1556,7 +1556,7 @@ MonoBehaviour:
     O uso cont\xEDnuo do aplicativo ap\xF3s quaisquer altera\xE7\xF5es constitui
     aceita\xE7\xE3o autom\xE1tica dos novos termos.\n\nEm caso de d\xFAvidas, sugest\xF5es
     ou solicita\xE7\xF5es, o usu\xE1rio ou respons\xE1vel poder\xE1 entrar em contato
-    por meio do seguinte canal: suporte@cromi.com.br.\n\nAo marcar a op\xE7\xE3o
+    por meio do seguinte canal: suporte@cromia.com.br.\n\nAo marcar a op\xE7\xE3o
     \u201CEu aceito os Termos e Condi\xE7\xF5es\u201D e continuar utilizando o aplicativo,
     o usu\xE1rio e/ou respons\xE1vel confirma sua concord\xE2ncia com todos os termos
     aqui descritos."
@@ -1593,7 +1593,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 16
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0

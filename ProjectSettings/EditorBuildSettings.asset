@@ -35,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Configuracao.unity
     guid: 01e81606bb897964ab888b562ceaf2bc
+  - enabled: 1
+    path: Assets/Scenes/TermosdeUso.unity
+    guid: 2778f0c99faca9a4c885969fa45af998
+  - enabled: 1
+    path: Assets/Scenes/PoliticadePrivacidade.unity
+    guid: a9fdd316af7038242abb2796d4d1ba97
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
