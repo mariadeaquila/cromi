@@ -1,23 +1,45 @@
-using UnityEngine;
 using System.Collections;
 
-public class trocartelasozinho : MonoBehaviour
+using UnityEngine;
+
+using System.Collections.Generic;
+
+public class tROCAPainel : MonoBehaviour
+
 {
-    public GameObject canvasAnterior;
-    public GameObject canvasSeguinte;
+    public GameObject painel1;
 
-    public float tempo = 5f;
+    public GameObject painel2;
 
-    void Start()
+
+    public void Troca()
+
     {
-        StartCoroutine(Trocar());
+
+        painel1.SetActive(false);
+
+        StartCoroutine("Espera");
+
     }
 
-    IEnumerator Trocar()
-    {
-        yield return new WaitForSeconds(tempo);
+    IEnumerator Espera()
 
-        canvasAnterior.SetActive(false);
-        canvasSeguinte.SetActive(true);
+    {
+
+        yield return new WaitForSeconds(5);
+
+        painel2.SetActive(true);
+
     }
+
+    // Update is called once per frame
+
+    void Update()
+
+    {
+
+    }
+
 }
+
+ 
