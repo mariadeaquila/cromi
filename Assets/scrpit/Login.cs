@@ -13,19 +13,26 @@ public class Login : MonoBehaviour
         string email = emailInput.text;
         string senha = senhaInput.text;
 
-        if (!BancoDeDados.UsuarioExiste(email))
+        if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(senha))
         {
-            mensagem.text = "N�o existe conta com esse email!";
+            mensagem.text = "Preencha todos os campos!";
             return;
         }
 
-        if (BancoDeDados.LoginCorreto(email, senha))
+        if (!BancoDeDados.UsuarioExiste(email))
         {
-            SceneManager.LoadScene("Perfil");
+            mensagem.text = "Não existe conta com esse email!";
+            return;
         }
-        else
+
+        if (!BancoDeDados.LoginCorreto(email, senha))
         {
             mensagem.text = "Senha incorreta!";
+            return;
         }
+
+        mensagem.text = "✅ Login realizado!";
+
+        SceneManager.LoadScene("Bemvindo");
     }
 }

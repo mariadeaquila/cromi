@@ -1,19 +1,15 @@
-using TMPro;
-using Unity.VisualScripting;
+﻿using TMPro;
 using UnityEngine;
 
 public class PerfilUsuario : MonoBehaviour
 {
     public TMP_InputField nomeInput;
     public TMP_InputField idadeInput;
+    public TMP_InputField condicaoInput;
     public TMP_InputField emailInput;
     public TMP_InputField senhaInput;
 
     public TextMeshProUGUI textoBotao;
-
-    public GameObject telaPerfil; 
-    public GameObject telaConfiguracoes;
-    public GameObject telaTermos;
 
     public GameObject foto;
     public GameObject foto2;
@@ -22,16 +18,19 @@ public class PerfilUsuario : MonoBehaviour
 
     void Start()
     {
-        // Come�a travado
         SetCamposEditaveis(false);
 
-        // Carregar dados
         nomeInput.text = PlayerPrefs.GetString("nome", "");
-        idadeInput.text = PlayerPrefs.GetString("idade", "");
+
+        int idade = PlayerPrefs.GetInt("idade", 0);
+        idadeInput.text = idade.ToString();
+
         emailInput.text = PlayerPrefs.GetString("email", "");
         senhaInput.text = PlayerPrefs.GetString("senha", "");
 
-        textoBotao.text = "editar";
+        condicaoInput.text = PlayerPrefs.GetString("condicao", ""); // 🔥
+
+        textoBotao.text = "Editar";
 
         int fotoSalva = PlayerPrefs.GetInt("fotoSelecionada", 1);
 
@@ -47,7 +46,7 @@ public class PerfilUsuario : MonoBehaviour
         }
     }
 
-public void BotaoEditar()
+    public void BotaoEditar()
     {
         editando = !editando;
 
@@ -70,49 +69,25 @@ public void BotaoEditar()
         idadeInput.interactable = valor;
         emailInput.interactable = valor;
         senhaInput.interactable = valor;
+        condicaoInput.interactable = valor; // 🔥
     }
 
     void SalvarDados()
     {
         PlayerPrefs.SetString("nome", nomeInput.text);
-        PlayerPrefs.SetString("idade", idadeInput.text);
+
+        int idade = 0;
+        int.TryParse(idadeInput.text, out idade);
+        PlayerPrefs.SetInt("idade", idade);
+
         PlayerPrefs.SetString("email", emailInput.text);
         PlayerPrefs.SetString("senha", senhaInput.text);
+
+        PlayerPrefs.SetString("condicao", condicaoInput.text); // 🔥
+
         PlayerPrefs.Save();
 
         Debug.Log("Salvo!");
-    }
-
-    public void AbrirConfiguracoes()
-    {
-        Debug.Log("CLICOU");
-        telaPerfil.SetActive(false);
-        telaConfiguracoes.SetActive(true);
-        telaTermos.SetActive(false);
-       
-    }
-
-    public void AbrirTermos()
-    {
-        Debug.Log("CLICOU");
-        telaPerfil.SetActive(false);
-        telaConfiguracoes.SetActive(false);
-        telaTermos.SetActive(true);
-    }
-    public void FecharConfiguracoes()
-    {
-        Debug.Log("CLICOU");
-        telaPerfil.SetActive(true);
-        telaConfiguracoes.SetActive(false);
-        telaTermos.SetActive(false);
-    }
-
-    public void FecharTermos()
-    {
-        Debug.Log("CLICOU");
-        telaPerfil.SetActive(true);
-        telaConfiguracoes.SetActive(false);
-        telaTermos.SetActive(false);
     }
 
     public void Trocarfoto()
@@ -132,5 +107,4 @@ public void BotaoEditar()
         PlayerPrefs.SetInt("fotoSelecionada", 1);
         PlayerPrefs.Save();
     }
-
 }

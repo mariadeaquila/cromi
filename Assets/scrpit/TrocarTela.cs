@@ -1,69 +1,88 @@
 using UnityEngine;
 
-public class TrocarTela : MonoBehaviour
+public class GerenciadorTelas : MonoBehaviour
 {
-    public GameObject canva;
+    public GameObject canva1;
     public GameObject canva2;
     public GameObject canva3;
     public GameObject canva4;
-    public GameObject canvaInicio;
+    public GameObject canva5;
+    public GameObject canva6;
+    public GameObject comecar;
 
-    public void Trocar()
+    public void MostrarTela1()
     {
-         Debug.Log("CLICOU");
-        canva.SetActive(false);
+        canva1.SetActive(true);
+        canva2.SetActive(false);
+        canva3.SetActive(false);
+        canva4.SetActive(false);
+        canva5.SetActive(false);
+        canva6.SetActive(false);
+        comecar.SetActive(false);
+    }
+
+    public void MostrarTela2()
+    {
+        canva1.SetActive(false);
         canva2.SetActive(true);
         canva3.SetActive(false);
         canva4.SetActive(false);
+        canva5.SetActive(false);
+        canva6.SetActive(false);
+        comecar.SetActive(false);
     }
-    public void Trocar2()
+
+    public void MostrarTela3()
     {
-        Debug.Log("CLICOU");
-        canva.SetActive(false);
+        canva1.SetActive(false);
         canva2.SetActive(false);
         canva3.SetActive(true);
         canva4.SetActive(false);
+        canva5.SetActive(false);
+        canva6.SetActive(false);
+        comecar.SetActive(false);
     }
-    public void Trocar3()
+
+    public void MostrarTela4()
     {
-        Debug.Log("CLICOU");
-        canva.SetActive(false);
+        canva1.SetActive(false);
         canva2.SetActive(false);
         canva3.SetActive(false);
         canva4.SetActive(true);
+        canva5.SetActive(false);
+        canva6.SetActive(false);
+        comecar.SetActive(false);
     }
 
-    public void Trocar4()
+    public void MostrarTela5()
     {
-        Debug.Log("CLICOU");
-        canva.SetActive(false);
+        canva1.SetActive(false);
         canva2.SetActive(false);
         canva3.SetActive(false);
         canva4.SetActive(false);
-        canvaInicio.SetActive(true);
+        canva5.SetActive(true);
+        canva6.SetActive(false);
+        comecar.SetActive(false);
     }
-    public void Voltar()
+    public void MostrarTela6()
     {
-        Debug.Log("CLICOU");
-        canva.SetActive(true);
+        canva1.SetActive(false);
         canva2.SetActive(false);
         canva3.SetActive(false);
         canva4.SetActive(false);
+        canva5.SetActive(false);
+        canva6.SetActive(true);
+        comecar.SetActive(false);
     }
-    public void Voltar2()
+
+    public void Inciar()
     {
-        Debug.Log("CLICOU");
-        canva.SetActive(false);
-        canva2.SetActive(true);
+        canva1.SetActive(false);
+        canva2.SetActive(false);
         canva3.SetActive(false);
         canva4.SetActive(false);
+        canva5.SetActive(false);
+        canva6.SetActive(false);
+        comecar.SetActive(true);
     }
-    public void Voltar3()
-    {
-        Debug.Log("CLICOU");
-        canva.SetActive(false);
-        canva2.SetActive(false);
-        canva3.SetActive(true);
-        canva4.SetActive(false);
-    }
-}
+ }
