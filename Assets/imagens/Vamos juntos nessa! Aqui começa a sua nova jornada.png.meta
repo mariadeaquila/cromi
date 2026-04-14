@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 54c48e8e1b236304893b1baca75d62ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1629553287578178207
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_0"
+  - first:
+      213: 1041624993126891251
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_1"
+  - first:
+      213: -7747489948656952225
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_2"
+  - first:
+      213: -8064782933650637993
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_3"
+  - first:
+      213: -7874649447384393557
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_4"
+  - first:
+      213: 3671036434028993154
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_5"
+  - first:
+      213: -2906026023953827067
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_6"
+  - first:
+      213: -1061043135663782227
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_7"
+  - first:
+      213: 2493374126937280109
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_8"
+  - first:
+      213: 7929810973975341076
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_9"
+  - first:
+      213: 5290216357268568245
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_10"
+  - first:
+      213: 2264523655199810581
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_11"
+  - first:
+      213: 4180266403759500942
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_12"
+  - first:
+      213: -8152022453503236716
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_13"
+  - first:
+      213: -6770857386872042252
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_14"
+  - first:
+      213: 5517492327947956212
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_15"
+  - first:
+      213: -5177406884499596983
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_16"
+  - first:
+      213: 2045843791553604445
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_17"
+  - first:
+      213: 372694632090641179
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_18"
+  - first:
+      213: 8227738479998831362
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_19"
+  - first:
+      213: -6644015396805199165
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_20"
+  - first:
+      213: -7758251509163904059
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_21"
+  - first:
+      213: -3077881852708244440
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_22"
+  - first:
+      213: -623912498716566849
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_23"
+  - first:
+      213: 2230600895777321799
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_24"
+  - first:
+      213: -1235990407855966875
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_25"
+  - first:
+      213: -5526497239823183310
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_26"
+  - first:
+      213: -4104789064069950609
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_27"
+  - first:
+      213: -3895149392811945057
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_28"
+  - first:
+      213: -1594891217759821681
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_29"
+  - first:
+      213: 6321073169334403249
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_30"
+  - first:
+      213: 4711563735602428991
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_31"
+  - first:
+      213: -1565542064375324712
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_32"
+  - first:
+      213: 6478809787340403574
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_33"
+  - first:
+      213: -4107991265790934967
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_34"
+  - first:
+      213: -7022026652937914498
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_35"
+  - first:
+      213: -5718203868917488748
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_36"
+  - first:
+      213: 2524783883735428658
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_37"
+  - first:
+      213: 5207432297567640806
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_38"
+  - first:
+      213: -7475157835835128741
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_39"
+  - first:
+      213: 5346724058914826404
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_40"
+  - first:
+      213: 2971449621908540005
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_41"
+  - first:
+      213: 8969282476732438646
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_42"
+  - first:
+      213: -7385313443986923038
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_43"
+  - first:
+      213: 7425216437602875415
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_44"
+  - first:
+      213: 7280322663831774183
+    second: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_45"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d255f2be9a269e0800000000000000
+      internalID: -1629553287578178207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_1"
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 201
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe3f789968947e00800000000000000
+      internalID: 1041624993126891251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_2"
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 164
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c946d80f26b7490800000000000000
+      internalID: -7747489948656952225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_3"
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 177
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bfe11a6a2241090800000000000000
+      internalID: -8064782933650637993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_4"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 164
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba85ded9c00a7b290800000000000000
+      internalID: -7874649447384393557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_5"
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 164
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a90dfcf2422f230800000000000000
+      internalID: 3671036434028993154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_6"
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 163
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bf03e5ab8bba7d0800000000000000
+      internalID: -2906026023953827067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_7"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 163
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6c467c3ea6641f0800000000000000
+      internalID: -1061043135663782227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_8"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 151
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e0f38de8e3a9220800000000000000
+      internalID: 2493374126937280109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_9"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 164
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4186bcf11195c0e60800000000000000
+      internalID: 7929810973975341076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_10"
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 164
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b834f78fbf9a6940800000000000000
+      internalID: 5290216357268568245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_11"
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 163
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51467a534443d6f10800000000000000
+      internalID: 2264523655199810581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_12"
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 163
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ea59e652a430a30800000000000000
+      internalID: 4180266403759500942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_13"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 164
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4956ee115c23ede80800000000000000
+      internalID: -8152022453503236716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_14"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 163
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc89a684151902a0800000000000000
+      internalID: -6770857386872042252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_15"
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 163
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffe7421a02129c40800000000000000
+      internalID: 5517492327947956212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_16"
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 163
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9495dbf9ed72628b0800000000000000
+      internalID: -5177406884499596983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_17"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 164
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bad7dc61c446c10800000000000000
+      internalID: 2045843791553604445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_18"
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 164
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1325731bc31c2500800000000000000
+      internalID: 372694632090641179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_19"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 87
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b842d1e8cce2270800000000000000
+      internalID: 8227738479998831362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_20"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 126
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca3337b237bbc3a0800000000000000
+      internalID: -6644015396805199165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_21"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 75
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3b52e7b57255490800000000000000
+      internalID: -7758251509163904059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_22"
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 88
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82434b423ca2945d0800000000000000
+      internalID: -3077881852708244440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_23"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 88
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba921753ea6757f0800000000000000
+      internalID: -623912498716566849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_24"
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 88
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743b97c42bfa4fe10800000000000000
+      internalID: 2230600895777321799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_25"
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 87
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56574f9c541e8dee0800000000000000
+      internalID: -1235990407855966875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_26"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 88
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23299208a00fd43b0800000000000000
+      internalID: -5526497239823183310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_27"
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 87
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63d336281cd807c0800000000000000
+      internalID: -4104789064069950609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_28"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 77
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f939d5eb346a1f9c0800000000000000
+      internalID: -3895149392811945057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_29"
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 88
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80290633eecdd9e0800000000000000
+      internalID: -1594891217759821681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_30"
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 88
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b00e699e86f8b750800000000000000
+      internalID: 6321073169334403249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_31"
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 87
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cf13d2146d26140800000000000000
+      internalID: 4711563735602428991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_32"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 88
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df1afb79c3164ae0800000000000000
+      internalID: -1565542064375324712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_33"
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673bfb5ec2b59e950800000000000000
+      internalID: 6478809787340403574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_34"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 50
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940cf1675bb7df6c0800000000000000
+      internalID: -4107991265790934967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_35"
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 12
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e777f44a6ffbc8e90800000000000000
+      internalID: -7022026652937914498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_36"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 12
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493a8e7a0ebd4a0b0800000000000000
+      internalID: -5718203868917488748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_37"
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 11
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e6eacb095d90320800000000000000
+      internalID: 2524783883735428658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_38"
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 12
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec5a60a514844840800000000000000
+      internalID: 5207432297567640806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_39"
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54c11bad87e24890800000000000000
+      internalID: -7475157835835128741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_40"
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a827a31431633a40800000000000000
+      internalID: 5346724058914826404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_41"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 11
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ac3dd00b5bc3920800000000000000
+      internalID: 2971449621908540005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_42"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 12
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678d5cb24ea497c70800000000000000
+      internalID: 8969282476732438646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_43"
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 12
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e12e304d88128990800000000000000
+      internalID: -7385313443986923038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_44"
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 12
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718f5bf620bab0760800000000000000
+      internalID: 7425216437602875415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_45"
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 12
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e32be3d3e6e80560800000000000000
+      internalID: 7280322663831774183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_0": -1629553287578178207
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_1": 1041624993126891251
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_10": 5290216357268568245
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_11": 2264523655199810581
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_12": 4180266403759500942
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_13": -8152022453503236716
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_14": -6770857386872042252
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_15": 5517492327947956212
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_16": -5177406884499596983
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_17": 2045843791553604445
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_18": 372694632090641179
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_19": 8227738479998831362
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_2": -7747489948656952225
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_20": -6644015396805199165
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_21": -7758251509163904059
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_22": -3077881852708244440
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_23": -623912498716566849
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_24": 2230600895777321799
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_25": -1235990407855966875
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_26": -5526497239823183310
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_27": -4104789064069950609
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_28": -3895149392811945057
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_29": -1594891217759821681
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_3": -8064782933650637993
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_30": 6321073169334403249
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_31": 4711563735602428991
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_32": -1565542064375324712
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_33": 6478809787340403574
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_34": -4107991265790934967
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_35": -7022026652937914498
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_36": -5718203868917488748
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_37": 2524783883735428658
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_38": 5207432297567640806
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_39": -7475157835835128741
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_4": -7874649447384393557
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_40": 5346724058914826404
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_41": 2971449621908540005
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_42": 8969282476732438646
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_43": -7385313443986923038
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_44": 7425216437602875415
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_45": 7280322663831774183
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_5": 3671036434028993154
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_6": -2906026023953827067
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_7": -1061043135663782227
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_8": 2493374126937280109
+      "Vamos juntos nessa!\LAqui come\xE7a a sua nova jornada_9": 7929810973975341076
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
