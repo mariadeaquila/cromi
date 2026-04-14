@@ -31,7 +31,7 @@ public class Login : MonoBehaviour
             return;
         }
 
-        mensagem.text = "✅ Login realizado!";
+        mensagem.text = "Login realizado!";
 
         SceneManager.LoadScene("Bemvindo");
     }
