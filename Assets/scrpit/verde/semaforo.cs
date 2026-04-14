@@ -2,41 +2,50 @@ using UnityEngine;
 
 public class semaforo : MonoBehaviour
 {
-    public GameObject painelErro;
-    public GameObject painelAcerto;
-
-    public GameObject telaAtual;
-    public GameObject proximaTela;
+    [Header("Painéis")]
+    public GameObject painelCorreto;
+    public GameObject painelErrado;
     public GameObject painelExplicacao;
 
-    // Chamado pelos botões
-    public void Resposta(bool correta)
+    [Header("Telas")]
+    public GameObject telaAtual;
+    public GameObject proximaTela;
+
+    // Chamado quando clica em uma resposta
+    public void VerificarResposta(bool correto)
     {
-        if (correta)
+        if (correto)
         {
-            painelAcerto.SetActive(true);
+            painelCorreto.SetActive(true);
         }
         else
         {
-            painelErro.SetActive(true);
+            painelErrado.SetActive(true);
         }
     }
 
     // Botão: Tentar novamente
     public void TentarNovamente()
     {
-        painelErro.SetActive(false);
+        painelErrado.SetActive(false);
     }
-    //botao: explique
-    public void Explicacao()
+
+    // Botão: Explicar resposta
+    public void ExplicarResposta()
     {
-        painelErro.SetActive(false);
+        painelErrado.SetActive(false);
         painelExplicacao.SetActive(true);
     }
-    // Botão: Continuar
+
+    // Botão: Fechar explicação (opcional)
+    public void FecharExplicacao()
+    {
+        painelExplicacao.SetActive(false);
+    }
+
+    // Botão: Continuar (no painel correto)
     public void Continuar()
     {
-        painelAcerto.SetActive(false);
         telaAtual.SetActive(false);
         proximaTela.SetActive(true);
     }
