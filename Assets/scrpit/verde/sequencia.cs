@@ -4,7 +4,7 @@ using System.Collections;
 public class sequencia : MonoBehaviour
 {
     public GameObject[] imagens;
-    public float tempoDelay = 5f;
+    public float tempoDelay = 1f;
 
     public GameObject painelAtual;
     public GameObject painelFinal;

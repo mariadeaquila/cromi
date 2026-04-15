@@ -11,26 +11,35 @@ public class livros : MonoBehaviour
     public GameObject telaAtual;
     public GameObject proximaTela;
 
-    [Header("Botões corretos")]
+    [Header("Botões corretos (6)")]
     public GameObject[] botoesCorretos;
+
+    [Header("Imagens dos corretos (6)")]
+    public GameObject[] imagensCorretas;
+
+    [Header("Botões errados (6)")]
+    public GameObject[] botoesErrados;
+
+    [Header("Imagens dos errados (6)")]
+    public GameObject[] imagensErradas;
 
     private int acertos = 0;
 
-    public AudioClip narracao; // 🗣️ narração dessa atividade
+    public AudioClip narracao;
 
     AudioManager audioManager;
 
     void Start()
-{
-    audioManager = FindAnyObjectByType<AudioManager>();
-
-    if (narracao != null)
     {
-        audioManager.TocarNarracao(narracao);
-    }
-}
+        audioManager = FindAnyObjectByType<AudioManager>();
 
-    // BOTÃO CORRETO
+        if (narracao != null)
+        {
+            audioManager.TocarNarracao(narracao);
+        }
+    }
+
+    // ✅ BOTÃO CORRETO
     public void RespostaCorreta()
     {
         GameObject botaoClicado = EventSystem.current.currentSelectedGameObject;
@@ -41,12 +50,13 @@ public class livros : MonoBehaviour
             {
                 if (!botoesCorretos[i].activeSelf) return;
 
+                // Esconde botão e mostra imagem correspondente
                 botoesCorretos[i].SetActive(false);
+                imagensCorretas[i].SetActive(true);
 
                 acertos++;
 
-                audioManager.TocarAcerto(); // ✅ som de acerto
-                //audioManager.audioSource.Stop(); // opcional: para narração
+                audioManager.TocarAcerto();
 
                 if (acertos >= botoesCorretos.Length)
                 {
@@ -58,12 +68,24 @@ public class livros : MonoBehaviour
         }
     }
 
-    // BOTÃO ERRADO
+    // ❌ BOTÃO ERRADO
     public void RespostaErrada()
     {
+        GameObject botaoClicado = EventSystem.current.currentSelectedGameObject;
+
+        for (int i = 0; i < botoesErrados.Length; i++)
+        {
+            if (botaoClicado == botoesErrados[i])
+            {
+                // Esconde botão e mostra imagem correspondente
+                botoesErrados[i].SetActive(false);
+                imagensErradas[i].SetActive(true);
+                break;
+            }
+        }
+
         painelErro.SetActive(true);
-        audioManager.TocarErro(); // ❌ som de erro
-        //audioManager.audioSource.Stop(); // opcional
+        audioManager.TocarErro();
     }
 
     public void TentarNovamente()

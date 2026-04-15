@@ -49,10 +49,26 @@ public class bolhas : MonoBehaviour
     }
 
     // BOTÃO CORRETO
-    public void RespostaCorreta()
+    public void RespostaCorreta(int btn)
     {
-        botao.SetActive(false);
-        imagem.SetActive(true);
+        if (btn == 0)
+        {
+            botao.SetActive(false);
+            imagem.SetActive(true);
+        }
+
+        if (btn == 1)
+        {
+            botao2.SetActive(false);
+            imagem2.SetActive(true);
+        }
+
+        if(btn == 2)
+        {
+            botao3.SetActive(false);
+            imagem3.SetActive(true);
+        }
+      
 
         acertos++;
 

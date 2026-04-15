@@ -44,6 +44,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PaginaInicial.unity
     guid: c65a17aa712cdf944b2cc3ae6b725140
+  - enabled: 1
+    path: Assets/Scenes/AtividadeVermelho.unity
+    guid: 58ab43bcac607344faa9974ca3d91b66
+  - enabled: 1
+    path: Assets/Scenes/AtividadeVerde.unity
+    guid: 52d3c550af4b944c7bf349b51160720d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
