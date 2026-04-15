@@ -49,13 +49,13 @@ public class ExampleBleInteractor : MonoBehaviour
             nomeBlueTooth = PlayerPrefs.GetString("nomeBlueTooth");
 
         InputNomeBlueTooh.onValueChanged.AddListener(OnInputFieldValueChanged);
-        botaoScan.GetComponentInChildren<Text>().text = "Scan " + nomeBlueTooth;
+        botaoScan.GetComponentInChildren<Text>().text = "CONECTE AQUI " + nomeBlueTooth;
     }
 
     private void OnInputFieldValueChanged(string arg0)
     {
         nomeBlueTooth = arg0;
-        botaoScan.GetComponentInChildren<Text>().text = "Scan " + nomeBlueTooth;
+        botaoScan.GetComponentInChildren<Text>().text = "CONECTE AQUI " + nomeBlueTooth;
 
     }
 
