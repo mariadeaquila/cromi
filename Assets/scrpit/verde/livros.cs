@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class livros : MonoBehaviour
 {
-    [Header("Pain�is")]
+    [Header("Painéis")]
     public GameObject painelErro;
     public GameObject painelCorreto;
 
@@ -11,12 +11,26 @@ public class livros : MonoBehaviour
     public GameObject telaAtual;
     public GameObject proximaTela;
 
-    [Header("Bot�es e Imagens")]
+    [Header("Botões corretos")]
     public GameObject[] botoesCorretos;
 
     private int acertos = 0;
 
-    // BOT�O CORRETO (SEM PAR�METRO)
+    public AudioClip narracao; // 🗣️ narração dessa atividade
+
+    AudioManager audioManager;
+
+    void Start()
+{
+    audioManager = FindAnyObjectByType<AudioManager>();
+
+    if (narracao != null)
+    {
+        audioManager.TocarNarracao(narracao);
+    }
+}
+
+    // BOTÃO CORRETO
     public void RespostaCorreta()
     {
         GameObject botaoClicado = EventSystem.current.currentSelectedGameObject;
@@ -31,6 +45,9 @@ public class livros : MonoBehaviour
 
                 acertos++;
 
+                audioManager.TocarAcerto(); // ✅ som de acerto
+                //audioManager.audioSource.Stop(); // opcional: para narração
+
                 if (acertos >= botoesCorretos.Length)
                 {
                     painelCorreto.SetActive(true);
@@ -41,10 +58,12 @@ public class livros : MonoBehaviour
         }
     }
 
-    // BOT�O ERRADO
+    // BOTÃO ERRADO
     public void RespostaErrada()
     {
         painelErro.SetActive(true);
+        audioManager.TocarErro(); // ❌ som de erro
+        //audioManager.audioSource.Stop(); // opcional
     }
 
     public void TentarNovamente()

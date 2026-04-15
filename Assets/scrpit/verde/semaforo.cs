@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class semaforo : MonoBehaviour
 {
-    [Header("PainÈis")]
+    [Header("Pain√©is")]
     public GameObject painelCorreto;
     public GameObject painelErrado;
     public GameObject painelExplicacao;
@@ -11,39 +11,57 @@ public class semaforo : MonoBehaviour
     public GameObject telaAtual;
     public GameObject proximaTela;
 
+    public AudioClip narracao; // üó£Ô∏è narra√ß√£o dessa atividade
+
+    AudioManager audioManager;
+
+    void Start()
+{
+    audioManager = FindAnyObjectByType<AudioManager>();
+
+    if (narracao != null)
+    {
+        audioManager.TocarNarracao(narracao);
+    }
+}
+
     // Chamado quando clica em uma resposta
     public void VerificarResposta(bool correto)
     {
         if (correto)
         {
             painelCorreto.SetActive(true);
+            audioManager.TocarAcerto(); // ‚úÖ som de acerto
+            //audioManager.audioSource.Stop(); // opcional
         }
         else
         {
             painelErrado.SetActive(true);
+            audioManager.TocarErro(); // ‚ùå som de erro
+            //audioManager.audioSource.Stop(); // opcional
         }
     }
 
-    // Bot„o: Tentar novamente
+    // Bot√£o: Tentar novamente
     public void TentarNovamente()
     {
         painelErrado.SetActive(false);
     }
 
-    // Bot„o: Explicar resposta
+    // Bot√£o: Explicar resposta
     public void ExplicarResposta()
     {
         painelErrado.SetActive(false);
         painelExplicacao.SetActive(true);
     }
 
-    // Bot„o: Fechar explicaÁ„o (opcional)
+    // Bot√£o: Fechar explica√ß√£o
     public void FecharExplicacao()
     {
         painelExplicacao.SetActive(false);
     }
 
-    // Bot„o: Continuar (no painel correto)
+    // Bot√£o: Continuar
     public void Continuar()
     {
         telaAtual.SetActive(false);

@@ -19,30 +19,46 @@ public class InteracaoPraia : MonoBehaviour
     public int totalCorretos = 3;
     private int acertos = 0;
 
-    void Acertou(GameObject circulo, GameObject botao)
-{
-    if (panelDica != null)
-        panelDica.SetActive(false);
+    public AudioClip narracao; // 🗣️ narração dessa atividade
 
-    circulo.SetActive(true);
-    circulo.transform.SetAsLastSibling();
+    AudioManager audioManager;
 
-    circulo.transform.position = botao.transform.position;
-    circulo.transform.SetAsLastSibling();
-
-    botao.SetActive(false);
-
-    acertos++;
-
-    if (painelErro != null)
-        painelErro.SetActive(false);
-
-    if (acertos >= totalCorretos)
+    void Start()
     {
-        telaAtual.SetActive(false);
-        proximaTela.SetActive(true);
+        audioManager = FindAnyObjectByType<AudioManager>();
+
+        if (narracao != null)
+        {
+            audioManager.TocarNarracao(narracao);
+        }
     }
-}
+
+    void Acertou(GameObject circulo, GameObject botao)
+    {
+        if (panelDica != null)
+            panelDica.SetActive(false);
+
+        circulo.SetActive(true);
+        circulo.transform.SetAsLastSibling();
+
+        circulo.transform.position = botao.transform.position;
+        circulo.transform.SetAsLastSibling();
+
+        botao.SetActive(false);
+
+        acertos++;
+
+        audioManager.TocarAcerto(); // ✅ som de acerto
+
+        if (painelErro != null)
+            painelErro.SetActive(false);
+
+        if (acertos >= totalCorretos)
+        {
+            telaAtual.SetActive(false);
+            proximaTela.SetActive(true);
+        }
+    }
 
     // CADA BOTÃO TEM SUA FUNÇÃO
     public void Acerto1()
@@ -68,6 +84,8 @@ public class InteracaoPraia : MonoBehaviour
 
         if (painelErro != null)
             painelErro.SetActive(true);
+
+        audioManager.TocarErro(); // ❌ som de erro
     }
 
     public void TentarNovamente()

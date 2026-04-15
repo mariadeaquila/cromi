@@ -15,13 +15,19 @@ public class colorir : MonoBehaviour
     [Header("Animais")]
     public Animal[] animais;
 
-    [Header("Áudio")]
-    public AudioSource audioSource;
-    public AudioClip somAcerto;
-    public AudioClip somErro;
+    public AudioClip narracao; // 🗣️ opcional
 
-    public void Start()
+    AudioManager audioManager;
+
+    void Start()
     {
+        audioManager = FindAnyObjectByType<AudioManager>();
+
+        if (narracao != null)
+        {
+            audioManager.TocarNarracao(narracao);
+        }
+
         for (int i = 0; i < animais.Length; i++)
         {
             Animal a = animais[i];
@@ -41,16 +47,14 @@ public class colorir : MonoBehaviour
     {
         if (animal.isCorreto)
         {
-            if (audioSource != null && somAcerto != null)
-                audioSource.PlayOneShot(somAcerto);
+            audioManager.TocarAcerto(); // ✅ som
 
             if (animal.imagemColorida != null)
                 animal.imagemColorida.SetActive(true);
         }
         else
         {
-            if (audioSource != null && somErro != null)
-                audioSource.PlayOneShot(somErro);
+            audioManager.TocarErro(); // ❌ som
 
             if (animal.imagemX != null)
                 animal.imagemX.SetActive(true);

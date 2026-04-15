@@ -17,10 +17,9 @@ public class QuizManager : MonoBehaviour
     [Header("Botões")]
     public Button[] botoes;
 
-    [Header("Áudio")]
-    public AudioSource audioSource;
-    public AudioClip somAcerto;
-    public AudioClip somErro;
+    public AudioClip narracao; // 🗣️ opcional
+
+    AudioManager audioManager;
 
     void Start()
     {
@@ -29,6 +28,13 @@ public class QuizManager : MonoBehaviour
         painelExplicacaoErrado.SetActive(false);
 
         LiberarBotoes();
+
+        audioManager = FindAnyObjectByType<AudioManager>();
+
+        if (narracao != null)
+        {
+            audioManager.TocarNarracao(narracao);
+        }
     }
 
     void TravarBotoes()
@@ -49,10 +55,7 @@ public class QuizManager : MonoBehaviour
 
     public void RespostaCorreta()
     {
-        if (audioSource != null && somAcerto != null)
-        {
-            audioSource.PlayOneShot(somAcerto);
-        }
+        audioManager.TocarAcerto(); // ✅ som
 
         painelCorreto.SetActive(true);
         TravarBotoes();
@@ -60,10 +63,7 @@ public class QuizManager : MonoBehaviour
 
     public void RespostaErrada()
     {
-        if (audioSource != null && somErro != null)
-        {
-            audioSource.PlayOneShot(somErro);
-        }
+        audioManager.TocarErro(); // ❌ som
 
         painelErrado.SetActive(true);
         TravarBotoes();

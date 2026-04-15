@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class bolhas : MonoBehaviour
 {
-    [Header("PainÈis")]
+    [Header("Pain√©is")]
     public GameObject painelErro;
     public GameObject painelCorreto;
 
@@ -16,23 +16,39 @@ public class bolhas : MonoBehaviour
     public GameObject imagem2;
     public GameObject imagem3;
 
-    [Header("ConfiguraÁ„o")]
+    [Header("Configura√ß√£o")]
     public int totalCorretos = 3;
     private int acertos = 0;
 
-    // BOT√O ERRADO
+    public AudioClip narracao; // üó£Ô∏è narra√ß√£o dessa atividade
+
+    AudioManager audioManager;
+
+    void Start()
+{
+    audioManager = FindAnyObjectByType<AudioManager>();
+
+    if (narracao != null)
+    {
+        audioManager.TocarNarracao(narracao);
+    }
+}
+
+    // BOT√ÉO ERRADO
     public void RespostaErrada()
     {
         painelErro.SetActive(true);
+        audioManager.TocarErro(); // ‚ùå som de erro
+
     }
 
-    // BOT√O "TENTAR NOVAMENTE"
+    // BOT√ÉO "TENTAR NOVAMENTE"
     public void TentarNovamente()
     {
         painelErro.SetActive(false);
     }
 
-    // BOT√O CORRETO
+    // BOT√ÉO CORRETO
     public void RespostaCorreta()
     {
         botao.SetActive(false);
@@ -40,13 +56,15 @@ public class bolhas : MonoBehaviour
 
         acertos++;
 
+        audioManager.TocarAcerto(); // ‚úÖ som de acerto
+
         if (acertos >= totalCorretos)
         {
             painelCorreto.SetActive(true);
         }
     }
 
-    // BOT√O CONTINUAR
+    // BOT√ÉO CONTINUAR
     public void Continuar()
     {
         telaAtual.SetActive(false);

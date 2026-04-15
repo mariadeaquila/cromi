@@ -22,13 +22,23 @@ public class Quiz4Botoes : MonoBehaviour
     public Color corCorreto = Color.green;
     public Color corErrado = Color.red;
 
-    
+    public AudioClip narracao; // 🗣️ narração dessa atividade
+
+    AudioManager audioManager;
 
     void Start()
     {
         painelCorreto.SetActive(false);
         painelErrado.SetActive(false);
         painelExplicacaoErrado.SetActive(false);
+
+        audioManager = FindAnyObjectByType<AudioManager>();
+
+        // ✅ SÓ TOCA SE TIVER ÁUDIO
+        if (narracao != null)
+        {
+            audioManager.TocarNarracao(narracao);
+        }
     }
 
     public void ResponderCorreto()
@@ -37,6 +47,8 @@ public class Quiz4Botoes : MonoBehaviour
 
         painelCorreto.SetActive(true);
         TravarBotoes();
+
+        audioManager.TocarAcerto(); // ✅ som
     }
 
     public void ResponderErrado(Button botaoClicado)
@@ -45,20 +57,21 @@ public class Quiz4Botoes : MonoBehaviour
 
         painelErrado.SetActive(true);
         TravarBotoes();
+
+        audioManager.TocarErro(); // ❌ som
     }
 
     void PintarBotao(Button botao, Color cor)
-{
-    if (botao == null) return;
-
-    Image img = botao.targetGraphic as Image;
-
-    if (img != null)
     {
-        img.color = cor;
-    }
-}
+        if (botao == null) return;
 
+        Image img = botao.targetGraphic as Image;
+
+        if (img != null)
+        {
+            img.color = cor;
+        }
+    }
 
     void TravarBotoes()
     {

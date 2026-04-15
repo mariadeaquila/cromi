@@ -8,16 +8,34 @@ public class lima : MonoBehaviour
     public GameObject telaAtual;
     public GameObject proximaTela;
 
+    public AudioClip narracao; // 🗣️ narração dessa atividade
+
+    AudioManager audioManager;
+
+    void Start()
+{
+    audioManager = FindAnyObjectByType<AudioManager>();
+
+    if (narracao != null)
+    {
+        audioManager.TocarNarracao(narracao);
+    }
+}
+
     // RESPOSTA CORRETA
     public void RespostaCorreta()
     {
         painelCorreto.SetActive(true);
+        audioManager.TocarAcerto(); // ✅ som de acerto
+        //audioManager.audioSource.Stop(); // opcional: para narração
     }
 
     // RESPOSTA ERRADA
     public void RespostaErrada()
     {
         painelErro.SetActive(true);
+        audioManager.TocarErro(); // ❌ som de erro
+        //audioManager.audioSource.Stop(); // opcional
     }
 
     // TENTAR NOVAMENTE

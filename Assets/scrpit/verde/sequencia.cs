@@ -16,10 +16,7 @@ public class sequencia : MonoBehaviour
 
     IEnumerator MostrarImagens()
     {
-        // ESCONDE O PAINEL ATUAL (ESSA ERA A PARTE QUE FALTAVA)
-        painelAtual.SetActive(false);
-
-        // garante tudo desligado
+        // garante que todas começam desligadas
         foreach (GameObject img in imagens)
         {
             img.SetActive(false);
@@ -35,7 +32,8 @@ public class sequencia : MonoBehaviour
             imagens[i].SetActive(false);
         }
 
-        // abre painel final
+        // só aqui troca de painel
+        painelAtual.SetActive(false);
         painelFinal.SetActive(true);
     }
 }
