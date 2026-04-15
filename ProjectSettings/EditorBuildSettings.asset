@@ -4,60 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 6d5bf346b8f79a342bdfd24f6b73c58e
-  - enabled: 0
-    path: Assets/Scenes/login e cadastro.unity
-    guid: ccf561bb69b235645b15fcf5fb53dd93
-  - enabled: 1
-    path: Assets/Scenes/splashscreen.unity
-    guid: dc292ceff86de2644882c23d4a97c30b
-  - enabled: 1
-    path: Assets/Scenes/Login.unity
-    guid: f7062c5a18ad259468c6525d0e8d498f
-  - enabled: 1
-    path: Assets/Scenes/Cadastro.unity
-    guid: a8f75b530d797c5499e254fd6ead6196
-  - enabled: 1
-    path: Assets/Scenes/Bemvindo.unity
-    guid: d50616d40a4ad0747aaaa7756ee8318e
-  - enabled: 1
-    path: Assets/Scenes/Termosecondicao.unity
-    guid: 1bb78a797329e4f438ec72ba70f7aebf
-  - enabled: 1
-    path: Assets/Scenes/Senha.unity
-    guid: 976555303356e57428bd1f17badb275f
-  - enabled: 1
-    path: Assets/Scenes/perfil.unity
-    guid: 8eda1e94ee7b1144fa749231cc0e0954
-  - enabled: 1
-    path: Assets/Scenes/Configuracao.unity
-    guid: 01e81606bb897964ab888b562ceaf2bc
-  - enabled: 1
-    path: Assets/Scenes/TermosdeUso.unity
-    guid: 2778f0c99faca9a4c885969fa45af998
-  - enabled: 1
-    path: Assets/Scenes/PoliticadePrivacidade.unity
-    guid: a9fdd316af7038242abb2796d4d1ba97
-  - enabled: 1
-    path: Assets/Scenes/PaginaInicial.unity
-    guid: c65a17aa712cdf944b2cc3ae6b725140
-  - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/Fases.unity
-    guid: f3dfa4ced781e5e4b973198c49a6eadc
-  - enabled: 1
-    path: Assets/Scenes/FasesCaminho.unity
-    guid: 7ae99f35655e7b14799ab59aafbc8e96
-=======
-    path: Assets/Scenes/AtividadeVermelho.unity
-    guid: 58ab43bcac607344faa9974ca3d91b66
-  - enabled: 1
-    path: Assets/Scenes/AtividadeVerde.unity
-    guid: 52d3c550af4b944c7bf349b51160720d
->>>>>>> a383a09e1a93f8ed77d452e87a4b5db63437a4c4
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_Scenes: []
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
