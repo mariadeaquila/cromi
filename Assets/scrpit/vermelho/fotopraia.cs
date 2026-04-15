@@ -8,18 +8,25 @@ public class InteracaoPraia : MonoBehaviour
     public GameObject telaAtual;
     public GameObject proximaTela;
 
+    // Círculos (acerto)
     public GameObject circulo1;
     public GameObject circulo2;
     public GameObject circulo3;
 
+    // Botões
     public GameObject botao1;
     public GameObject botao2;
     public GameObject botao3;
 
+    // 🖼️ IMAGENS (NOVO)
+    public GameObject imagem1;
+    public GameObject imagem2;
+    public GameObject imagem3;
+
     public int totalCorretos = 3;
     private int acertos = 0;
 
-    public AudioClip narracao; // 🗣️ narração dessa atividade
+    public AudioClip narracao;
 
     AudioManager audioManager;
 
@@ -33,22 +40,26 @@ public class InteracaoPraia : MonoBehaviour
         }
     }
 
-    void Acertou(GameObject circulo, GameObject botao)
+    void Acertou(GameObject circulo, GameObject botao, GameObject imagem)
     {
         if (panelDica != null)
             panelDica.SetActive(false);
 
+        // mostra círculo
         circulo.SetActive(true);
-        circulo.transform.SetAsLastSibling();
-
         circulo.transform.position = botao.transform.position;
         circulo.transform.SetAsLastSibling();
 
+        // esconde botão
         botao.SetActive(false);
+
+        // 🖼️ mostra imagem
+        if (imagem != null)
+            imagem.SetActive(true);
 
         acertos++;
 
-        audioManager.TocarAcerto(); // ✅ som de acerto
+        audioManager.TocarAcerto();
 
         if (painelErro != null)
             painelErro.SetActive(false);
@@ -60,20 +71,20 @@ public class InteracaoPraia : MonoBehaviour
         }
     }
 
-    // CADA BOTÃO TEM SUA FUNÇÃO
+    // BOTÕES CERTOS
     public void Acerto1()
     {
-        Acertou(circulo1, botao1);
+        Acertou(circulo1, botao1, imagem1);
     }
 
     public void Acerto2()
     {
-        Acertou(circulo2, botao2);
+        Acertou(circulo2, botao2, imagem2);
     }
 
     public void Acerto3()
     {
-        Acertou(circulo3, botao3);
+        Acertou(circulo3, botao3, imagem3);
     }
 
     // ERRO
@@ -85,7 +96,7 @@ public class InteracaoPraia : MonoBehaviour
         if (painelErro != null)
             painelErro.SetActive(true);
 
-        audioManager.TocarErro(); // ❌ som de erro
+        audioManager.TocarErro();
     }
 
     public void TentarNovamente()

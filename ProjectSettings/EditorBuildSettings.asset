@@ -45,11 +45,19 @@ EditorBuildSettings:
     path: Assets/Scenes/PaginaInicial.unity
     guid: c65a17aa712cdf944b2cc3ae6b725140
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Fases.unity
     guid: f3dfa4ced781e5e4b973198c49a6eadc
   - enabled: 1
     path: Assets/Scenes/FasesCaminho.unity
     guid: 7ae99f35655e7b14799ab59aafbc8e96
+=======
+    path: Assets/Scenes/AtividadeVermelho.unity
+    guid: 58ab43bcac607344faa9974ca3d91b66
+  - enabled: 1
+    path: Assets/Scenes/AtividadeVerde.unity
+    guid: 52d3c550af4b944c7bf349b51160720d
+>>>>>>> a383a09e1a93f8ed77d452e87a4b5db63437a4c4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
