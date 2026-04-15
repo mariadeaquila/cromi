@@ -84,7 +84,7 @@ public class PermissaoBluetooth : MonoBehaviour
             return;
 
         cenaJaFoiTrocada = true;
-        SceneManager.LoadScene(cenaBluetooth);
+       // SceneManager.LoadScene(cenaBluetooth);
     }
 
     private void IrParaCenaPermissaoNegada()
@@ -93,6 +93,6 @@ public class PermissaoBluetooth : MonoBehaviour
             return;
 
         cenaJaFoiTrocada = true;
-        SceneManager.LoadScene(cenaPermissaoNegada);
+        //SceneManager.LoadScene(cenaPermissaoNegada);
     }
 }
