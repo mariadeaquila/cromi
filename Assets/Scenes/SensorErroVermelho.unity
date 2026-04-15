@@ -1213,7 +1213,6 @@ GameObject:
   - component: {fileID: 271594971}
   - component: {fileID: 271594970}
   - component: {fileID: 271594969}
-  - component: {fileID: 271594973}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1309,25 +1308,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &271594973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271594968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79365d4e53e197e498b3930064400652, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LeitorCor
-  corEsperada: VERMELHO
-  painelAcerto: {fileID: 157894692}
-  erroAmarelo: {fileID: 1221485680}
-  erroVerde: {fileID: 793786229}
-  erroAzul: {fileID: 1008738125}
-  erroRoxo: {fileID: 693986238}
-  erroLaranja: {fileID: 1389132316}
 --- !u!1 &288362048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,6 +1616,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307475710}
   m_CullTransparentMesh: 1
+--- !u!1 &336284356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 336284357}
+  - component: {fileID: 336284359}
+  - component: {fileID: 336284358}
+  m_Layer: 0
+  m_Name: BluetoothManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &336284357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336284356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 494.92303, y: 1159.6698, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336284358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336284356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d62201f12c1044588ef10aabeba92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorGameManager
+  panelVermelho: {fileID: 157894692}
+  panelAmarelo: {fileID: 1221485680}
+  panelVerde: {fileID: 793786229}
+  panelAzul: {fileID: 1008738125}
+  panelRoxo: {fileID: 693986238}
+  panelLaranja: {fileID: 1389132316}
+--- !u!114 &336284359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336284356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6dc4fe78aa71646a6eab1500f47912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BluetoothColorConnector
+  targetDeviceName: cromia
+  serviceUuid: 12345678-1234-1234-1234-1234567890ab
+  characteristicUuid: 12345678-1234-1234-1234-1234567890ac
+  scanTimeMs: 10000
+  colorGameManager: {fileID: 336284358}
 --- !u!1 &377067672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,6 +1695,7 @@ GameObject:
   - component: {fileID: 377067675}
   - component: {fileID: 377067674}
   - component: {fileID: 377067673}
+  - component: {fileID: 377067676}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1728,6 +1777,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &377067676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377067672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &382488906
 GameObject:
   m_ObjectHideFlags: 0
@@ -8985,3 +9078,4 @@ SceneRoots:
   - {fileID: 377067675}
   - {fileID: 271594972}
   - {fileID: 675207509}
+  - {fileID: 336284357}
