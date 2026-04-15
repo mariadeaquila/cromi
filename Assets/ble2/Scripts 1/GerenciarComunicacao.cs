@@ -13,7 +13,8 @@ using UnityEngine.UI;
 public class GerenciarComunicacao : MonoBehaviour
 {
     [SerializeField]
-    private string _servico = "ffe0", _caracteristica = "ffe1";
+    private string _servico = "0000ffe0-0000-1000-8000-00805f9b34fb",
+               _caracteristica = "0000ffe1-0000-1000-8000-00805f9b34fb";
 
     // [SerializeField]
     // Image barraTemperatura, barraUmidade;
