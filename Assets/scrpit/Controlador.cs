@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Controlador : MonoBehaviour
 {
-    // Agora recebe o nome da cena como parâmetro
+    // Agora recebe o nome da cena como parï¿½metro
     public void CarregarCena(string nomeDaCena)
     {
         SceneManager.LoadScene(nomeDaCena);
