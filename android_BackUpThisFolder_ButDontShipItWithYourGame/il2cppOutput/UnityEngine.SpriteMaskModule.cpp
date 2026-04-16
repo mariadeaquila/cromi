@@ -66,7 +66,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+<<<<<<< HEAD
 // Method Definition Index: 72737
+=======
+// Method Definition Index: 72731
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRange_m7E522D077F4992310FECE3D2911B0C1EE1F72F6B (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9 ___0_range, const RuntimeMethod* method) 
 {
 	{
@@ -75,7 +79,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRa
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72738
+=======
+// Method Definition Index: 72732
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9* ___0_range, const RuntimeMethod* method) 
 {
 	typedef bool (*SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD_ftn) (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9*);

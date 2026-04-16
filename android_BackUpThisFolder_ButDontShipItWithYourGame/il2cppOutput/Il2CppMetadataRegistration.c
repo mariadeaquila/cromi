@@ -23,13 +23,23 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	g_Il2CppGenericInstTable,
 	132876,
 	g_Il2CppGenericMethodFunctions,
+<<<<<<< HEAD
 	34307,
+=======
+	34306,
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
 	g_Il2CppTypeTable,
-	148816,
+	148815,
 	g_Il2CppMethodSpecTable,
+<<<<<<< HEAD
 	9109,
 	g_FieldOffsetTable,
 	9109,
+=======
+	9108,
+	g_FieldOffsetTable,
+	9108,
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
 	g_Il2CppTypeDefinitionSizesTable,
 	0,
 	NULL,
