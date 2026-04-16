@@ -84,15 +84,7 @@ struct GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B  : public Behaviour_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-<<<<<<< HEAD
 // Method Definition Index: 72733
-=======
-<<<<<<< HEAD
-// Method Definition Index: 72734
-=======
-// Method Definition Index: 72728
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A (GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B* __this, const RuntimeMethod* method) 
 {
 	{

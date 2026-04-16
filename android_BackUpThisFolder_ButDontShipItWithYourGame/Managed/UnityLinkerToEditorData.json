@@ -51,37 +51,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -95,37 +65,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -174,37 +114,7 @@
           {
             "name": "Camera",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -224,37 +134,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -274,37 +154,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 1,
             "icon": null
@@ -318,37 +168,7 @@
           {
             "name": "GameObject",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -380,37 +200,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 1,
             "icon": null
@@ -442,37 +232,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -486,33 +246,7 @@
           {
             "name": "Material",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -538,34 +272,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -579,34 +286,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 1,
             "icon": null
@@ -614,37 +294,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 1,
             "icon": null
@@ -682,34 +332,7 @@
           {
             "name": "RectTransform",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -723,37 +346,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-=======
-              "Assets/Scenes/splashscreen.unity",
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -785,33 +378,7 @@
           {
             "name": "Shader",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -837,34 +404,7 @@
           {
             "name": "Sprite",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -1921,22 +1461,7 @@
           {
             "name": "Font",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -2002,34 +1527,7 @@
           {
             "name": "Canvas",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null
@@ -2043,34 +1541,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-<<<<<<< HEAD
               "Assets/Scenes/Bemvindo.unity"
-=======
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-<<<<<<< HEAD
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
             ],
             "dependencyType": 0,
             "icon": null

@@ -30827,15 +30827,7 @@ IL_0034:
 		return;
 	}
 }
-<<<<<<< HEAD
 // Method Definition Index: 70794
-=======
-<<<<<<< HEAD
-// Method Definition Index: 70795
-=======
-// Method Definition Index: 70792
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{
