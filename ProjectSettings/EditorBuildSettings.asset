@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/splashscreen.unity
     guid: dc292ceff86de2644882c23d4a97c30b
   - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: f7062c5a18ad259468c6525d0e8d498f
+  - enabled: 1
     path: Assets/Scenes/perfil.unity
     guid: 8eda1e94ee7b1144fa749231cc0e0954
   - enabled: 1
@@ -17,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AtividadeVermelho.unity
     guid: 58ab43bcac607344faa9974ca3d91b66
-  - enabled: 1
-    path: Assets/Scenes/Bemvindo.unity
-    guid: d50616d40a4ad0747aaaa7756ee8318e
   - enabled: 1
     path: Assets/Scenes/Cadastro.unity
     guid: a8f75b530d797c5499e254fd6ead6196
@@ -30,17 +30,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Fases.unity
     guid: f3dfa4ced781e5e4b973198c49a6eadc
   - enabled: 1
-    path: Assets/Scenes/Fases 1.unity
-    guid: 9f8d50c1cc37ab44a8e75739b62b57be
-  - enabled: 1
-    path: Assets/Scenes/Fases 2.unity
-    guid: 2217f15e14aaaed4f8848770940a2986
-  - enabled: 1
     path: Assets/Scenes/FasesCaminho.unity
     guid: 7ae99f35655e7b14799ab59aafbc8e96
   - enabled: 1
-    path: Assets/Scenes/Login.unity
-    guid: f7062c5a18ad259468c6525d0e8d498f
+    path: Assets/Scenes/FasesCaminhoV.unity
+    guid: da2343a1644b63d4abedb53023d12134
   - enabled: 1
     path: Assets/Scenes/PaginaInicial.unity
     guid: c65a17aa712cdf944b2cc3ae6b725140
@@ -54,9 +48,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SensorErroVermelho.unity
     guid: b8abc1c7ffcd910449c12d87efb8af1e
   - enabled: 1
-    path: Assets/Scenes/TelaInicial.unity
-    guid: 9c5bb5829921b3c4aaabaab6417a66d8
-  - enabled: 1
     path: Assets/Scenes/SersorErroVerde.unity
     guid: f4c88f1d5f32e184aa4c053536cdae42
   - enabled: 1
@@ -65,8 +56,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TermosdeUso.unity
     guid: 2778f0c99faca9a4c885969fa45af998
-  - enabled: 1
-    path: Assets/Scenes/TelaInicio2.unity
-    guid: c315faed485b96142860478e11d0f876
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

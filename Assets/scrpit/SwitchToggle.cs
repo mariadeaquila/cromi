@@ -3,25 +3,29 @@ using UnityEngine.UI;
 
 public class ToggleSwitch : MonoBehaviour
 {
-    public Image onImage;
-    public Image offImage;
+    [SerializeField] private Image onImage;
+    [SerializeField] private Image offImage;
 
     private bool isOn = false;
 
     void Start()
     {
-        UpdateVisual();
+        SetState(true); // começa desligado
     }
 
     public void Toggle()
     {
-        isOn = !isOn;
-        UpdateVisual();
+        SetState(!isOn);
     }
 
-    void UpdateVisual()
+    void SetState(bool state)
     {
-        onImage.gameObject.SetActive(isOn);
-        offImage.gameObject.SetActive(!isOn);
+        isOn = state;
+
+        if (onImage != null)
+            onImage.gameObject.SetActive(isOn);
+
+        if (offImage != null)
+            offImage.gameObject.SetActive(!isOn);
     }
 }

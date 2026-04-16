@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 618875936}
   - component: {fileID: 618875935}
   - component: {fileID: 618875934}
+  - component: {fileID: 618875938}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -434,6 +435,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &618875938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618875933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077a0dc15f0f67f40a85899e736f02c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Controlador
 --- !u!1 &856683366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,7 +1452,15 @@ PrefabInstance:
     - target: {fileID: 2398671176121337013, guid: 0df1ef47bf4c2ab40b2e331e77dea5b4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 978464208}
+      objectReference: {fileID: 618875938}
+    - target: {fileID: 2398671176121337013, guid: 0df1ef47bf4c2ab40b2e331e77dea5b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CarregarCena
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398671176121337013, guid: 0df1ef47bf4c2ab40b2e331e77dea5b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Fases
+      objectReference: {fileID: 0}
     - target: {fileID: 3194208320128730693, guid: 0df1ef47bf4c2ab40b2e331e77dea5b4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
