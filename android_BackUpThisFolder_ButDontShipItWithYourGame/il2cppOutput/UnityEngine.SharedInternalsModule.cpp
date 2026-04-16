@@ -390,12 +390,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribut
 <<<<<<< HEAD
 // Method Definition Index: 72383
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72384
-=======
-// Method Definition Index: 72378
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileNameExtensionAttribute__ctor_mBDD7C2006F136025094AABE2295D190F43F7F224 (AssetFileNameExtensionAttribute_tEA86B663DC42BB5C4F9A2A081CD7D28845D9D056* __this, String_t* ___0_preferredExtension, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_otherExtensions, const RuntimeMethod* method) 
 {
 	{
@@ -420,12 +416,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileNameExtensionAttribute__ctor_mB
 <<<<<<< HEAD
 // Method Definition Index: 72384
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72385
-=======
-// Method Definition Index: 72379
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadAndSerializationSafeAttribute__ctor_m5023D29907E8D1092714DFFA137A8364454709C7 (ThreadAndSerializationSafeAttribute_t819C12E8106F42E7493B11DDA93C36F6FB864357* __this, const RuntimeMethod* method) 
 {
 	{
@@ -444,12 +436,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadAndSerializationSafeAttribute__cto
 <<<<<<< HEAD
 // Method Definition Index: 72385
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72386
-=======
-// Method Definition Index: 72380
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WritableAttribute__ctor_mC4E14F120A46CC52A65942F34224E2FB20CFF55A (WritableAttribute_t7D85DADDFD6751C94E2E9594E562AD281A3B6E7B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -468,12 +456,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WritableAttribute__ctor_mC4E14F120A46CC5
 <<<<<<< HEAD
 // Method Definition Index: 72386
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72387
-=======
-// Method Definition Index: 72381
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RejectDragAndDropMaterial__ctor_m506305EEEFB3F69DE6F77279272177DC03132CE6 (RejectDragAndDropMaterial_tB84E5C99122C688C14A84CC721584031A13A549B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -492,12 +476,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RejectDragAndDropMaterial__ctor_m506305E
 <<<<<<< HEAD
 // Method Definition Index: 72387
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72388
-=======
-// Method Definition Index: 72382
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEngineModuleAssembly__ctor_m3F8B023CF6E911C448EF9284C72F7BE92C6E72E3 (UnityEngineModuleAssembly_tB6587DA5BA2569921894019758C4D69095012710* __this, const RuntimeMethod* method) 
 {
 	{
@@ -516,12 +496,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEngineModuleAssembly__ctor_m3F8B023
 <<<<<<< HEAD
 // Method Definition Index: 72388
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72389
-=======
-// Method Definition Index: 72383
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute_set_QualifiedNativeName_m5DA8C7AE66E1D4F1ACEA7592ABBF331A2650E0D6 (NativeClassAttribute_t774C48B9F745C9B0FD2FA82F9B42D4A18E162FA7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -534,12 +510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute_set_QualifiedNative
 <<<<<<< HEAD
 // Method Definition Index: 72389
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72390
-=======
-// Method Definition Index: 72384
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Declaration_mE5497339ED9E55F30DABACBE40AD6D9D36CAE653 (NativeClassAttribute_t774C48B9F745C9B0FD2FA82F9B42D4A18E162FA7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -552,12 +524,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Declaration_mE5
 <<<<<<< HEAD
 // Method Definition Index: 72390
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72391
-=======
-// Method Definition Index: 72385
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute__ctor_mA4C67EDCE7DA70AAADE77FE63EEECFFA911AD0C7 (NativeClassAttribute_t774C48B9F745C9B0FD2FA82F9B42D4A18E162FA7* __this, String_t* ___0_qualifiedCppName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -580,12 +548,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute__ctor_mA4C67EDCE7DA
 <<<<<<< HEAD
 // Method Definition Index: 72391
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72392
-=======
-// Method Definition Index: 72386
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute__ctor_m92A42152D6ACC3FB9C381EFDFAA691251E2C3DD7 (NativeClassAttribute_t774C48B9F745C9B0FD2FA82F9B42D4A18E162FA7* __this, String_t* ___0_qualifiedCppName, String_t* ___1_declaration, const RuntimeMethod* method) 
 {
 	{
@@ -608,12 +572,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute__ctor_m92A42152D6AC
 <<<<<<< HEAD
 // Method Definition Index: 72392
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72393
-=======
-// Method Definition Index: 72387
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisibleToOtherModulesAttribute__ctor_m2F00FAC0C9348472A15E93AD256145DCDD967E59 (VisibleToOtherModulesAttribute_tE7803AC6A0462A18B7EEF17C4A1036DEE993B489* __this, const RuntimeMethod* method) 
 {
 	{
@@ -624,12 +584,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisibleToOtherModulesAttribute__ctor_m2F
 <<<<<<< HEAD
 // Method Definition Index: 72393
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72394
-=======
-// Method Definition Index: 72388
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisibleToOtherModulesAttribute__ctor_m2FC15A41D7218FFD29ECA4F70323F6DF8F19EC35 (VisibleToOtherModulesAttribute_tE7803AC6A0462A18B7EEF17C4A1036DEE993B489* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_modules, const RuntimeMethod* method) 
 {
 	{
@@ -648,12 +604,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisibleToOtherModulesAttribute__ctor_m2F
 <<<<<<< HEAD
 // Method Definition Index: 72394
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72395
-=======
-// Method Definition Index: 72389
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Condition_m96107E75DC095D9B4A9A7CCE0EB0C3EFAA2F0053 (NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -666,12 +618,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Condition
 <<<<<<< HEAD
 // Method Definition Index: 72395
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72396
-=======
-// Method Definition Index: 72390
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_StubReturnStatement_mAA961429C06F0E4DC9149C26CC092ED29AF5331E (NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -684,12 +632,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_StubRetur
 <<<<<<< HEAD
 // Method Definition Index: 72396
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72397
-=======
-// Method Definition Index: 72391
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Enabled_m379DA383CBBF2539C080D5DC0E8B97F4DB27DA64 (NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -701,12 +645,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Enabled_m
 <<<<<<< HEAD
 // Method Definition Index: 72397
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72398
-=======
-// Method Definition Index: 72392
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_mD9C6F4E343C06314DF5DCFDDE9B5495E78F711ED (NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA* __this, String_t* ___0_condition, const RuntimeMethod* method) 
 {
 	{
@@ -720,12 +660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_mD9C6F4
 <<<<<<< HEAD
 // Method Definition Index: 72398
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72399
-=======
-// Method Definition Index: 72393
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_m5EC9368A4D06044907451D8C77B356E9ADBD241E (NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA* __this, String_t* ___0_condition, String_t* ___1_stubReturnStatement, const RuntimeMethod* method) 
 {
 	{
@@ -747,12 +683,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_m5EC936
 <<<<<<< HEAD
 // Method Definition Index: 72399
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72400
-=======
-// Method Definition Index: 72394
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeHeaderAttribute_set_Header_mC431D0143381F2B35B08E211C2D5DD011372ADAB (NativeHeaderAttribute_t35DDAA41C31EEE4C94D2586F33D3EB26C0EA6F51* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -765,12 +697,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeHeaderAttribute_set_Header_mC431D0
 <<<<<<< HEAD
 // Method Definition Index: 72400
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72401
-=======
-// Method Definition Index: 72395
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeHeaderAttribute__ctor_mA7E08C5B4BC93515D8A57C3E63EA030EC64EC127 (NativeHeaderAttribute_t35DDAA41C31EEE4C94D2586F33D3EB26C0EA6F51* __this, const RuntimeMethod* method) 
 {
 	{
@@ -781,12 +709,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeHeaderAttribute__ctor_mA7E08C5B4BC
 <<<<<<< HEAD
 // Method Definition Index: 72401
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72402
-=======
-// Method Definition Index: 72396
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeHeaderAttribute__ctor_mD0D73B93BC695BC42CBF7E7FC6FB044131C3D0BC (NativeHeaderAttribute_t35DDAA41C31EEE4C94D2586F33D3EB26C0EA6F51* __this, String_t* ___0_header, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -849,12 +773,8 @@ IL_003a:
 <<<<<<< HEAD
 // Method Definition Index: 72402
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72403
-=======
-// Method Definition Index: 72397
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNameAttribute_set_Name_mA5639D9FDBEADE899CBE13AFA4FCFB61A95ADAE7 (NativeNameAttribute_t222751782B5418807DFE2A88CA0B24CA691B8621* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -867,12 +787,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNameAttribute_set_Name_mA5639D9FDB
 <<<<<<< HEAD
 // Method Definition Index: 72403
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72404
-=======
-// Method Definition Index: 72398
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNameAttribute__ctor_m9F46C053270D9DBCC9F9AB32C545A7696F0638D0 (NativeNameAttribute_t222751782B5418807DFE2A88CA0B24CA691B8621* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -935,12 +851,8 @@ IL_003a:
 <<<<<<< HEAD
 // Method Definition Index: 72404
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72405
-=======
-// Method Definition Index: 72399
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Name_mE223393EB6EEA9E94A8A9CC093CB3CBBCB7C40B8 (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -953,12 +865,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Name_mE223393E
 <<<<<<< HEAD
 // Method Definition Index: 72405
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72406
-=======
-// Method Definition Index: 72400
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsThreadSafe_m443623C95A2E3552D0A791DC65E20ADFC447AE3F (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -970,12 +878,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsThreadSafe_m
 <<<<<<< HEAD
 // Method Definition Index: 72406
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72407
-=======
-// Method Definition Index: 72401
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsFreeFunction_mCF665BA0A4CA25DA0EA8C3C5EDDB9A03315C9C4F (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -987,12 +891,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsFreeFunction
 <<<<<<< HEAD
 // Method Definition Index: 72407
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72408
-=======
-// Method Definition Index: 72402
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_ThrowsException_m05A53893F9C6616B40F8F70790C6533C30C64592 (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1004,12 +904,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_ThrowsExceptio
 <<<<<<< HEAD
 // Method Definition Index: 72408
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72409
-=======
-// Method Definition Index: 72403
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_HasExplicitThis_m41908D1B191AEADF84C548E57A72B4E948D35678 (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1021,12 +917,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_HasExplicitThi
 <<<<<<< HEAD
 // Method Definition Index: 72409
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72410
-=======
-// Method Definition Index: 72404
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_mEA2A3B247A134B4453743CCF55655D16C63C741E (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1037,12 +929,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_mEA2A3B247A1
 <<<<<<< HEAD
 // Method Definition Index: 72410
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72411
-=======
-// Method Definition Index: 72405
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_m75590D9A8E1851C1DA619C07522D5D4AA63797B5 (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1097,12 +985,8 @@ IL_003a:
 <<<<<<< HEAD
 // Method Definition Index: 72411
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72412
-=======
-// Method Definition Index: 72406
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_mCDF45F4290C6955E1E9FE460709D9ACA18B2D06E (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, String_t* ___0_name, bool ___1_isFreeFunction, const RuntimeMethod* method) 
 {
 	{
@@ -1116,12 +1000,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_mCDF45F4290C
 <<<<<<< HEAD
 // Method Definition Index: 72412
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72413
-=======
-// Method Definition Index: 72407
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_m0B32894B3BD625410703207C7DBF61098BAEE973 (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, String_t* ___0_name, bool ___1_isFreeFunction, bool ___2_isThreadSafe, const RuntimeMethod* method) 
 {
 	{
@@ -1152,12 +1032,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_m0B32894B3BD
 <<<<<<< HEAD
 // Method Definition Index: 72413
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72414
-=======
-// Method Definition Index: 72408
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute_set_TargetType_m858E4E653A2F81F5313EF4F5D69740D945B19ED7 (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1169,12 +1045,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute_set_TargetType_m
 <<<<<<< HEAD
 // Method Definition Index: 72414
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72415
-=======
-// Method Definition Index: 72409
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_mAF06F05D29FE386561167B2BDF0149E3744411EA (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1185,12 +1057,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_mAF06F05D2
 <<<<<<< HEAD
 // Method Definition Index: 72415
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72416
-=======
-// Method Definition Index: 72410
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m32EC1C27977EA39BC2824743EC417561AC138BA3 (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -1202,12 +1070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m32EC1C279
 <<<<<<< HEAD
 // Method Definition Index: 72416
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72417
-=======
-// Method Definition Index: 72411
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m61A6A85F47F1111850244DFFD401B94E3234BDC7 (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, String_t* ___0_name, bool ___1_isFree, int32_t ___2_targetType, const RuntimeMethod* method) 
 {
 	{
@@ -1238,12 +1102,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m61A6A85F4
 <<<<<<< HEAD
 // Method Definition Index: 72417
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72418
-=======
-// Method Definition Index: 72412
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeAsStructAttribute__ctor_m6AF1CD76481CC41BF7CE5C87DCF6CE68EF187298 (NativeAsStructAttribute_t48549F0E2D38CC0251B7BF2780E434EA141DF2D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1262,12 +1122,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeAsStructAttribute__ctor_m6AF1CD764
 <<<<<<< HEAD
 // Method Definition Index: 72418
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72419
-=======
-// Method Definition Index: 72413
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Header_m847CE2407B2426DFF214F3F18DE9644062A5FB8A (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1280,12 +1136,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Header_m847CE240
 <<<<<<< HEAD
 // Method Definition Index: 72419
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72420
-=======
-// Method Definition Index: 72414
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_IntermediateScriptingStructName_mA5791DC59CA4C7572D8B5C80D28176559E2BC907 (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1298,12 +1150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_IntermediateScri
 <<<<<<< HEAD
 // Method Definition Index: 72420
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72421
-=======
-// Method Definition Index: 72415
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_CodegenOptions_mEECF2309A52F63B6258608EFF56AEAEF5E5572FC (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1315,12 +1163,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_CodegenOptions_m
 <<<<<<< HEAD
 // Method Definition Index: 72421
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72422
-=======
-// Method Definition Index: 72416
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute__ctor_mC1B7AC76546C88B8314DBDE006BF54739A8D2BCD (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1332,12 +1176,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute__ctor_mC1B7AC76546C8
 <<<<<<< HEAD
 // Method Definition Index: 72422
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72423
-=======
-// Method Definition Index: 72417
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute__ctor_m42A2C59E33BA5B0DD88A44BA5C9A1C0FDDFBCF46 (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, int32_t ___0_codegenOptions, const RuntimeMethod* method) 
 {
 	{
@@ -1350,12 +1190,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute__ctor_m42A2C59E33BA5
 <<<<<<< HEAD
 // Method Definition Index: 72423
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72424
-=======
-// Method Definition Index: 72418
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute__ctor_m3E053B25317A9630A5D4D9C8730A776A3C8F0487 (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, String_t* ___0_header, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1411,12 +1247,8 @@ IL_003a:
 <<<<<<< HEAD
 // Method Definition Index: 72424
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72425
-=======
-// Method Definition Index: 72419
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute__ctor_mAAAA100D0F13ECBDEB655342889B7D82CF920A75 (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, int32_t ___0_codegenOptions, String_t* ___1_intermediateStructName, const RuntimeMethod* method) 
 {
 	{
@@ -1438,12 +1270,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute__ctor_mAAAA100D0F13E
 <<<<<<< HEAD
 // Method Definition Index: 72425
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72426
-=======
-// Method Definition Index: 72420
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotNullAttribute__ctor_mFFF7228A8C668381869056F3C8FD1A9CDC25D8FD (NotNullAttribute_t2E29B7802E8ED55CEA04EC4A6C254C6B60272DF7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1462,12 +1290,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotNullAttribute__ctor_mFFF7228A8C668381
 <<<<<<< HEAD
 // Method Definition Index: 72426
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72427
-=======
-// Method Definition Index: 72421
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FreeFunctionAttribute__ctor_m0F9BA14FE9193D3CDE593EBF1EA06531F8400388 (FreeFunctionAttribute_t1200571BEDF64167E58F976FB7374AEA5D9BCBB6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1479,12 +1303,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FreeFunctionAttribute__ctor_m0F9BA14FE91
 <<<<<<< HEAD
 // Method Definition Index: 72427
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72428
-=======
-// Method Definition Index: 72422
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FreeFunctionAttribute__ctor_m379A417DDF33E9D2BB5227D05DD365584E15DDAC (FreeFunctionAttribute_t1200571BEDF64167E58F976FB7374AEA5D9BCBB6* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -1496,12 +1316,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FreeFunctionAttribute__ctor_m379A417DDF3
 <<<<<<< HEAD
 // Method Definition Index: 72428
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72429
-=======
-// Method Definition Index: 72423
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FreeFunctionAttribute__ctor_mAC3C22502820C23E516911E3B620387FB330D9E2 (FreeFunctionAttribute_t1200571BEDF64167E58F976FB7374AEA5D9BCBB6* __this, String_t* ___0_name, bool ___1_isThreadSafe, const RuntimeMethod* method) 
 {
 	{
@@ -1522,12 +1338,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FreeFunctionAttribute__ctor_mAC3C2250282
 <<<<<<< HEAD
 // Method Definition Index: 72429
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72430
-=======
-// Method Definition Index: 72424
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadSafeAttribute__ctor_m1FFE949649F2986C5526433C39F7BC0413472FA1 (ThreadSafeAttribute_t2535A209D57BDA2FF398C4CA766059277FC349FE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1555,12 +1367,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadSafeAttribute__ctor_m1FFE949649F29
 <<<<<<< HEAD
 // Method Definition Index: 72430
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72431
-=======
-// Method Definition Index: 72425
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Name_m922EC8831D7A1DDE802D33204B88715EEC7B121B (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1573,12 +1381,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Name_m922EC8
 <<<<<<< HEAD
 // Method Definition Index: 72431
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72432
-=======
-// Method Definition Index: 72426
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Type_m2B350A872AB9222E3CEC32AA03A6B85E7770BDC0 (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1590,12 +1394,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Type_m2B350A
 <<<<<<< HEAD
 // Method Definition Index: 72432
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72433
-=======
-// Method Definition Index: 72427
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute__ctor_m441E5A01FEB31C10AE2D65C8F680B650E6CDF5C0 (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -1608,12 +1408,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute__ctor_m441E5A01F
 <<<<<<< HEAD
 // Method Definition Index: 72433
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72434
-=======
-// Method Definition Index: 72428
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute__ctor_m6E1E237E6E03AC9F4B00C506199F03807BEA33BE (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, String_t* ___0_name, int32_t ___1_type, const RuntimeMethod* method) 
 {
 	{
@@ -1636,12 +1432,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StaticAccessorAttribute__ctor_m6E1E237E6
 <<<<<<< HEAD
 // Method Definition Index: 72434
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72435
-=======
-// Method Definition Index: 72429
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeThrowsAttribute_set_ThrowsException_m523089D1314C7549B50B3D1123149F064CC0A708 (NativeThrowsAttribute_t211CE8D047A8D45676C9ED399D5AA3B4A2C3E625* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1653,12 +1445,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeThrowsAttribute_set_ThrowsExceptio
 <<<<<<< HEAD
 // Method Definition Index: 72435
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72436
-=======
-// Method Definition Index: 72430
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeThrowsAttribute__ctor_m62F4CD2A09BDFD06FD43B74201D68CD2F79E109E (NativeThrowsAttribute_t211CE8D047A8D45676C9ED399D5AA3B4A2C3E625* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1678,12 +1466,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeThrowsAttribute__ctor_m62F4CD2A09B
 <<<<<<< HEAD
 // Method Definition Index: 72436
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72437
-=======
-// Method Definition Index: 72431
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreAttribute_set_DoesNotContributeToSize_m0313EA1B54BF5E9FD61267FD476A7C9FB1A5C439 (IgnoreAttribute_tAB3F6C4808BA16CD585D60A6353B3E0599DFCE4D* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1695,12 +1479,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreAttribute_set_DoesNotContributeToS
 <<<<<<< HEAD
 // Method Definition Index: 72437
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72438
-=======
-// Method Definition Index: 72432
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreAttribute__ctor_mDA2998DACBA21CE6D66510F5AA6C4AB1FC33E323 (IgnoreAttribute_tAB3F6C4808BA16CD585D60A6353B3E0599DFCE4D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1719,12 +1499,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreAttribute__ctor_mDA2998DACBA21CE6D
 <<<<<<< HEAD
 // Method Definition Index: 72438
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72439
-=======
-// Method Definition Index: 72433
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreventReadOnlyInstanceModificationAttribute__ctor_m62694007EB93F071791A5139A34F73695A14B9CC (PreventReadOnlyInstanceModificationAttribute_t7FBCFCBA855C80F9E87486C8A6B4DDBA47B78415* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1751,12 +1527,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreventReadOnlyInstanceModificationAttri
 <<<<<<< HEAD
 // Method Definition Index: 72439
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72440
-=======
-// Method Definition Index: 72434
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityMarshalAsAttribute__ctor_m065AE5286C25B1EF6F81AACE9C6A77376C0FB92F (UnityMarshalAsAttribute_t3A4FF16D17EEC62388806239D6B9C870715685B7* __this, int32_t ___0_nativeType, const RuntimeMethod* method) 
 {
 	{
@@ -1777,12 +1549,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityMarshalAsAttribute__ctor_m065AE5286
 <<<<<<< HEAD
 // Method Definition Index: 72440
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72441
-=======
-// Method Definition Index: 72435
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute__ctor_m7C07CF71798D5A94EB849622EA3883E547927D88 (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1793,12 +1561,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute__ctor_m7C07CF7
 <<<<<<< HEAD
 // Method Definition Index: 72441
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72442
-=======
-// Method Definition Index: 72436
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute__ctor_m3C75236A1A2C7E364179A7DEDE9E53E7C3CE334D (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -1811,12 +1575,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute__ctor_m3C75236
 <<<<<<< HEAD
 // Method Definition Index: 72442
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72443
-=======
-// Method Definition Index: 72437
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99 (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1837,12 +1597,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39E
 <<<<<<< HEAD
 // Method Definition Index: 72443
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72444
-=======
-// Method Definition Index: 72438
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute__ctor_mBCF284DE0C8F84F211ACE616928BE47E29055920 (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1853,12 +1609,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute__ctor_mBCF
 <<<<<<< HEAD
 // Method Definition Index: 72444
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72445
-=======
-// Method Definition Index: 72439
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute__ctor_m6FB8966FBCB6CC8B3989B0846EE7ED1DBFF60C87 (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, bool ___0_optional, const RuntimeMethod* method) 
 {
 	{
@@ -1871,12 +1623,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute__ctor_m6FB
 <<<<<<< HEAD
 // Method Definition Index: 72445
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72446
-=======
-// Method Definition Index: 72440
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Optional_m009CBA1D24E7F6EDAE1411CB6A7A01CB2A13B541 (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1888,12 +1636,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Option
 <<<<<<< HEAD
 // Method Definition Index: 72446
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72447
-=======
-// Method Definition Index: 72441
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_GenerateProxy_m63E4D29F468D0F254136F1596AEA106BD9EDC89B (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1908,12 +1652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Genera
 <<<<<<< HEAD
 // Method Definition Index: 72388
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72389
-=======
-// Method Definition Index: 72383
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeClassAttribute_set_QualifiedNativeName_m5DA8C7AE66E1D4F1ACEA7592ABBF331A2650E0D6_inline (NativeClassAttribute_t774C48B9F745C9B0FD2FA82F9B42D4A18E162FA7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1926,12 +1666,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Qua
 <<<<<<< HEAD
 // Method Definition Index: 72389
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72390
-=======
-// Method Definition Index: 72384
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Declaration_mE5497339ED9E55F30DABACBE40AD6D9D36CAE653_inline (NativeClassAttribute_t774C48B9F745C9B0FD2FA82F9B42D4A18E162FA7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1944,12 +1680,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeClassAttribute_set_Dec
 <<<<<<< HEAD
 // Method Definition Index: 72394
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72395
-=======
-// Method Definition Index: 72389
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Condition_m96107E75DC095D9B4A9A7CCE0EB0C3EFAA2F0053_inline (NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1962,12 +1694,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_s
 <<<<<<< HEAD
 // Method Definition Index: 72396
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72397
-=======
-// Method Definition Index: 72391
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Enabled_m379DA383CBBF2539C080D5DC0E8B97F4DB27DA64_inline (NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1979,12 +1707,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_s
 <<<<<<< HEAD
 // Method Definition Index: 72395
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72396
-=======
-// Method Definition Index: 72390
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_StubReturnStatement_mAA961429C06F0E4DC9149C26CC092ED29AF5331E_inline (NativeConditionalAttribute_tB722B3ED350E82853F8CEFF672A6CDC4B6B362CA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1997,12 +1721,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeConditionalAttribute_s
 <<<<<<< HEAD
 // Method Definition Index: 72399
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72400
-=======
-// Method Definition Index: 72394
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeHeaderAttribute_set_Header_mC431D0143381F2B35B08E211C2D5DD011372ADAB_inline (NativeHeaderAttribute_t35DDAA41C31EEE4C94D2586F33D3EB26C0EA6F51* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2015,12 +1735,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeHeaderAttribute_set_He
 <<<<<<< HEAD
 // Method Definition Index: 72402
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72403
-=======
-// Method Definition Index: 72397
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeNameAttribute_set_Name_mA5639D9FDBEADE899CBE13AFA4FCFB61A95ADAE7_inline (NativeNameAttribute_t222751782B5418807DFE2A88CA0B24CA691B8621* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2033,12 +1749,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeNameAttribute_set_Name
 <<<<<<< HEAD
 // Method Definition Index: 72404
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72405
-=======
-// Method Definition Index: 72399
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Name_mE223393EB6EEA9E94A8A9CC093CB3CBBCB7C40B8_inline (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2051,12 +1763,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Na
 <<<<<<< HEAD
 // Method Definition Index: 72406
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72407
-=======
-// Method Definition Index: 72401
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsFreeFunction_mCF665BA0A4CA25DA0EA8C3C5EDDB9A03315C9C4F_inline (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2068,12 +1776,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Is
 <<<<<<< HEAD
 // Method Definition Index: 72405
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72406
-=======
-// Method Definition Index: 72400
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsThreadSafe_m443623C95A2E3552D0A791DC65E20ADFC447AE3F_inline (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2085,12 +1789,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_Is
 <<<<<<< HEAD
 // Method Definition Index: 72413
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72414
-=======
-// Method Definition Index: 72408
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativePropertyAttribute_set_TargetType_m858E4E653A2F81F5313EF4F5D69740D945B19ED7_inline (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2102,12 +1802,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativePropertyAttribute_set_
 <<<<<<< HEAD
 // Method Definition Index: 72420
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72421
-=======
-// Method Definition Index: 72415
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_CodegenOptions_mEECF2309A52F63B6258608EFF56AEAEF5E5572FC_inline (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2119,12 +1815,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Code
 <<<<<<< HEAD
 // Method Definition Index: 72418
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72419
-=======
-// Method Definition Index: 72413
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Header_m847CE2407B2426DFF214F3F18DE9644062A5FB8A_inline (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2137,12 +1829,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Head
 <<<<<<< HEAD
 // Method Definition Index: 72419
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72420
-=======
-// Method Definition Index: 72414
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_IntermediateScriptingStructName_mA5791DC59CA4C7572D8B5C80D28176559E2BC907_inline (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2155,12 +1843,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Inte
 <<<<<<< HEAD
 // Method Definition Index: 72430
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72431
-=======
-// Method Definition Index: 72425
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Name_m922EC8831D7A1DDE802D33204B88715EEC7B121B_inline (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2173,12 +1857,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_
 <<<<<<< HEAD
 // Method Definition Index: 72431
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72432
-=======
-// Method Definition Index: 72426
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Type_m2B350A872AB9222E3CEC32AA03A6B85E7770BDC0_inline (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2190,12 +1870,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_
 <<<<<<< HEAD
 // Method Definition Index: 72434
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72435
-=======
-// Method Definition Index: 72429
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeThrowsAttribute_set_ThrowsException_m523089D1314C7549B50B3D1123149F064CC0A708_inline (NativeThrowsAttribute_t211CE8D047A8D45676C9ED399D5AA3B4A2C3E625* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2207,12 +1883,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeThrowsAttribute_set_Th
 <<<<<<< HEAD
 // Method Definition Index: 72442
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72443
-=======
-// Method Definition Index: 72437
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_inline (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2225,12 +1897,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_se
 <<<<<<< HEAD
 // Method Definition Index: 72445
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72446
-=======
-// Method Definition Index: 72440
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Optional_m009CBA1D24E7F6EDAE1411CB6A7A01CB2A13B541_inline (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{

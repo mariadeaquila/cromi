@@ -12638,12 +12638,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Oid_get_Value_m59D678A8
 <<<<<<< HEAD
 // Method Definition Index: 72744
 =======
-<<<<<<< HEAD
 // Method Definition Index: 72745
-=======
-// Method Definition Index: 72739
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t ASN1_get_Tag_m1984CF0DDF54424E61BA3650D93CBA0DCB58F232_inline (ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F* __this, const RuntimeMethod* method) 
 {
 	{

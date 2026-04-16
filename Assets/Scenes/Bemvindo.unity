@@ -1526,14 +1526,13 @@ GameObject:
   - component: {fileID: 579035689}
   - component: {fileID: 579035688}
   - component: {fileID: 579035692}
-  - component: {fileID: 579035693}
   m_Layer: 5
   m_Name: Canvas2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &579035688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1637,23 +1636,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 077a0dc15f0f67f40a85899e736f02c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControladorLogin
---- !u!114 &579035693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579035687}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 277c7d004b5732d4dae3e98add43d6f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ExampleBleInteractor
-  InputNomeBlueTooh: {fileID: 0}
-  botaoScan: {fileID: 0}
-  status: {fileID: 0}
-  _deviceButton: {fileID: 0}
-  _scanTime: 10
 --- !u!1 &625086472
 GameObject:
   m_ObjectHideFlags: 0
@@ -5210,13 +5192,14 @@ GameObject:
   - component: {fileID: 1569752062}
   - component: {fileID: 1569752061}
   - component: {fileID: 1569752064}
+  - component: {fileID: 1569752065}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1569752060
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5317,7 +5300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 077a0dc15f0f67f40a85899e736f02c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControladorLogin
-<<<<<<< HEAD
 --- !u!114 &1569752065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5512,9 +5494,7 @@ RectTransform:
   m_AnchoredPosition: {x: 399.99997, y: -245}
   m_SizeDelta: {x: 799.99994, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
-=======
->>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
->>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
+>>>>>>> parent of c748579 (de)
 --- !u!1 &1602384954
 GameObject:
   m_ObjectHideFlags: 0
