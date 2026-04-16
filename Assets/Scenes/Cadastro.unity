@@ -4668,7 +4668,7 @@ MonoBehaviour:
   imagem: {fileID: 1484354901}
   avatares:
   - {fileID: 1994717437632991298, guid: 7c9953d00f7e88c44abd399f04987da3, type: 3}
-  - {fileID: 5760222191024000650, guid: 0bedf892f45cb2044bc546a61ad4c81c, type: 3}
+  - {fileID: 7775147770192671128, guid: c566fb56ea92a4e4c82968e7f521c733, type: 3}
 --- !u!114 &1431275652
 MonoBehaviour:
   m_ObjectHideFlags: 0

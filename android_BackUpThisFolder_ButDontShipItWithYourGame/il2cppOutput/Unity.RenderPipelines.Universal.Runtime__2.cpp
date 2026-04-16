@@ -34421,7 +34421,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DeferredLights_get_AccurateG
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72617
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72618
+=======
+// Method Definition Index: 72612
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_SkipTransparentObjects_mF14292D682D98CD5D4BF34B9CA606FDE38918F6E_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

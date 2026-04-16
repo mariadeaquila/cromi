@@ -93,7 +93,15 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+<<<<<<< HEAD
 // Method Definition Index: 72607
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72608
+=======
+// Method Definition Index: 72602
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_m1C321FC5CE335F500CC453F77D2C5D65AC09FE04 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -116,7 +124,15 @@ IL_0009:
 		return L_1;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72608
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72609
+=======
+// Method Definition Index: 72603
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_DecalsDrawDistance_m8AF659B95A9FE171DEB3E3E78D8D9E9E998979F0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -139,7 +155,15 @@ IL_0009:
 		return L_1;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72609
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72610
+=======
+// Method Definition Index: 72604
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get_MainLightShadowCascadesCountBias_m3947CFDDEBDAEB4946390D6B4974FE71EE198FE7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -154,7 +178,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72610
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72611
+=======
+// Method Definition Index: 72605
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8BBA723E51D4603E8F2FBA544145F96075EF0C29 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -169,7 +201,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72611
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72612
+=======
+// Method Definition Index: 72606
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_LutBias_mA1A9D48AD9489390B87E4584569CDE3B68B2FEE1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -184,7 +224,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_L
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72612
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72613
+=======
+// Method Definition Index: 72607
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_MaxShadowDistanceMultiplier_mEE56BC01EF9E54E376E829FDA3AD3847C3CF097B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -207,7 +255,15 @@ IL_0009:
 		return L_1;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72613
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72614
+=======
+// Method Definition Index: 72608
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_RenderScaleMultiplier_mCCF91DB09F0BC934D15030DF71DB15A0B0184666 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -230,7 +286,15 @@ IL_0009:
 		return L_1;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72614
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72615
+=======
+// Method Definition Index: 72609
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get_AntiAliasingQualityBias_mEBB5ED9C94908FFBF82393A9C82028602D29B9C3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -245,7 +309,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72615
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72616
+=======
+// Method Definition Index: 72610
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_SkipDynamicBatching_mECF4149B6E64E776DA5CF5CF3AD49C41651C89E4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -260,7 +332,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_Sk
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72616
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72617
+=======
+// Method Definition Index: 72611
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_SkipFrontToBackSorting_m4E9D5CD20F1869E93DB9FFAD874B607668732D25 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -275,7 +355,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_Sk
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72617
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72618
+=======
+// Method Definition Index: 72612
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_SkipTransparentObjects_mF14292D682D98CD5D4BF34B9CA606FDE38918F6E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -290,7 +378,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_Sk
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72618
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72619
+=======
+// Method Definition Index: 72613
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings__cctor_mAA2D2F6F74CADD156149ADB4939A7D4ABDDD118D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

@@ -51637,7 +51637,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t* NumberBuffer_GetDigitsPo
 		return L_0;
 	}
 }
+<<<<<<< HEAD
 // Method Definition Index: 72787
+=======
+<<<<<<< HEAD
+// Method Definition Index: 72806
+=======
+// Method Definition Index: 72800
+>>>>>>> parent of f9d80f9 (Merge branch 'main' of https://github.com/mariadeaquila/Cromi)
+>>>>>>> c74857944a381996cec7ff3573b20b9ca28ab6d8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mEE549E5B722DBA08465F585E64B08C6F0851C63A_inline (void* ___0_destination, void* ___1_source, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
