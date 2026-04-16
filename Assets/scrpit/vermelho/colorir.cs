@@ -10,14 +10,12 @@ public class colorir : MonoBehaviour
         public GameObject imagemColorida;
         public GameObject imagemX;
         public bool isCorreto;
-        public GameObject proximopainel;
-        public GameObject painelatual;
     }
 
     [Header("Animais")]
     public Animal[] animais;
 
-    public AudioClip narracao;
+    public AudioClip narracao; // 🗣️ opcional
 
     AudioManager audioManager;
 
@@ -49,28 +47,17 @@ public class colorir : MonoBehaviour
     {
         if (animal.isCorreto)
         {
-            audioManager.TocarAcerto();
+            audioManager.TocarAcerto(); // ✅ som
 
             if (animal.imagemColorida != null)
-            {
                 animal.imagemColorida.SetActive(true);
-            }
-
-            // 👉 TROCA DE PAINEL (corrigido)
-            if (animal.proximopainel != null)
-                animal.proximopainel.SetActive(true);
-
-            if (animal.painelatual != null)
-                animal.painelatual.SetActive(false);
         }
         else
         {
-            audioManager.TocarErro();
+            audioManager.TocarErro(); // ❌ som
 
             if (animal.imagemX != null)
-            {
                 animal.imagemX.SetActive(true);
-            }
         }
     }
 }
