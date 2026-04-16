@@ -2557,7 +2557,7 @@ MonoBehaviour:
   painelExplicacao: {fileID: 1065057061}
   telaAtual: {fileID: 194403194}
   proximaTela: {fileID: 1399901573}
-  narracao: {fileID: 0}
+  narracao: {fileID: 8300000, guid: 16ece7de4a3807c4b90fa2c6425fdb4d, type: 3}
 --- !u!4 &176412816
 Transform:
   m_ObjectHideFlags: 0
@@ -2566,12 +2566,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176412814}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 540, y: 1200, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 194403198}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &176594796
 GameObject:
@@ -2891,6 +2891,7 @@ RectTransform:
   - {fileID: 1191637932}
   - {fileID: 1065057062}
   - {fileID: 562951401}
+  - {fileID: 176412816}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4385,7 +4386,7 @@ MonoBehaviour:
   - {fileID: 2137466744}
   - {fileID: 1463515122}
   - {fileID: 782130517}
-  narracao: {fileID: 0}
+  narracao: {fileID: 8300000, guid: cf880d2e770d16645bbfaadb54962b6d, type: 3}
 --- !u!224 &318366510
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9441,7 +9442,7 @@ MonoBehaviour:
   painelErro: {fileID: 1550520637}
   telaAtual: {fileID: 892789635}
   proximaTela: {fileID: 594568706}
-  narracao: {fileID: 0}
+  narracao: {fileID: 8300000, guid: b5968f45e2a733f46a3797fec82c7b09, type: 3}
 --- !u!1 &824029067
 GameObject:
   m_ObjectHideFlags: 0
@@ -12432,7 +12433,7 @@ MonoBehaviour:
   botaoCorreto: {fileID: 233997352}
   corCorreto: {r: 0.16794232, g: 0.6981132, b: 0.44136375, a: 1}
   corErrado: {r: 0.8490566, g: 0.21226415, b: 0.21226415, a: 1}
-  narracao: {fileID: 0}
+  narracao: {fileID: 8300000, guid: f336d8d3f338bfe4e9c763df6d890cc6, type: 3}
 --- !u!4 &1004661313
 Transform:
   m_ObjectHideFlags: 0
@@ -12441,12 +12442,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004661311}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 340.23465, y: 1058.9854, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -199.76535, y: -141.01465, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1962789407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1009969680
 GameObject:
@@ -14741,6 +14742,7 @@ RectTransform:
   - {fileID: 1843061528}
   - {fileID: 984719351}
   - {fileID: 16215681}
+  - {fileID: 1851795251}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -25625,7 +25627,7 @@ MonoBehaviour:
   imagem2: {fileID: 631502403}
   imagem3: {fileID: 2051221785}
   totalCorretos: 3
-  narracao: {fileID: 0}
+  narracao: {fileID: 8300000, guid: cfad82bda0af5cb43af10027d42baefb, type: 3}
 --- !u!4 &1778520645
 Transform:
   m_ObjectHideFlags: 0
@@ -26079,12 +26081,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851795249}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 540, y: 1199.9978, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1120082196}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1857663942
 GameObject:
@@ -27887,7 +27889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1959762327
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28050,6 +28052,7 @@ RectTransform:
   - {fileID: 209781670}
   - {fileID: 694686213}
   - {fileID: 848400637}
+  - {fileID: 1004661313}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -29144,7 +29147,7 @@ MonoBehaviour:
   botaoCorreto: {fileID: 1568142914}
   corCorreto: {r: 0.2912513, g: 0.8018868, b: 0.2912513, a: 1}
   corErrado: {r: 0.8962264, g: 0.31706125, b: 0.31706125, a: 1}
-  narracao: {fileID: 0}
+  narracao: {fileID: 8300000, guid: be9fe4fbc5ee7b140abd88736fc07bf2, type: 3}
 --- !u!1 &2070900147
 GameObject:
   m_ObjectHideFlags: 0
@@ -30454,15 +30457,12 @@ SceneRoots:
   - {fileID: 154973458}
   - {fileID: 1182801459}
   - {fileID: 1120082196}
-  - {fileID: 1851795251}
   - {fileID: 194403198}
-  - {fileID: 176412816}
   - {fileID: 1399901577}
   - {fileID: 1313435608}
   - {fileID: 892789639}
   - {fileID: 594568710}
   - {fileID: 1962789407}
-  - {fileID: 1004661313}
   - {fileID: 201031638}
   - {fileID: 460958517}
   - {fileID: 1089986274}
