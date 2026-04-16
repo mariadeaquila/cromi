@@ -276,7 +276,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1286299800}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
         m_MethodName: CarregarCena
         m_Mode: 5
@@ -730,7 +730,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 783434848}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleSwitch, Assembly-CSharp
         m_MethodName: Toggle
         m_Mode: 1
@@ -1063,7 +1063,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1286299800}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
         m_MethodName: CarregarCena
         m_Mode: 5
@@ -1436,7 +1436,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 705659156}
-  - component: {fileID: 705659157}
   m_Layer: 5
   m_Name: swtich code (2)
   m_TagString: Untagged
@@ -1465,20 +1464,6 @@ RectTransform:
   m_AnchoredPosition: {x: 307.36, y: -47.353012}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &705659157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705659155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72dfac73bc17a5d44952cf28df0c54ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ToggleSwitch
-  onImage: {fileID: 1811551715}
-  offImage: {fileID: 914030747}
 --- !u!1 &748121507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,7 +1822,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 783434847}
-  - component: {fileID: 783434848}
   m_Layer: 5
   m_Name: swtich code (1)
   m_TagString: Untagged
@@ -1866,20 +1850,6 @@ RectTransform:
   m_AnchoredPosition: {x: 307.36, y: 52.646988}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &783434848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783434846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72dfac73bc17a5d44952cf28df0c54ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ToggleSwitch
-  onImage: {fileID: 358356499}
-  offImage: {fileID: 2077079094}
 --- !u!1 &846882413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2099,7 +2069,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 705659157}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleSwitch, Assembly-CSharp
         m_MethodName: Toggle
         m_Mode: 1
@@ -2269,7 +2239,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1117395813}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleSwitch, Assembly-CSharp
         m_MethodName: Toggle
         m_Mode: 1
@@ -2365,7 +2335,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1286299800}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
         m_MethodName: CarregarCena
         m_Mode: 5
@@ -2472,7 +2442,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1117395814}
-  - component: {fileID: 1117395813}
   m_Layer: 5
   m_Name: swtich code
   m_TagString: Untagged
@@ -2480,20 +2449,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1117395813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117395812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72dfac73bc17a5d44952cf28df0c54ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ToggleSwitch
-  onImage: {fileID: 948903233}
-  offImage: {fileID: 1248522764}
 --- !u!224 &1117395814
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2597,7 +2552,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1286299800}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
         m_MethodName: CarregarCena
         m_Mode: 5
@@ -2767,7 +2722,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1117395813}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleSwitch, Assembly-CSharp
         m_MethodName: Toggle
         m_Mode: 1
@@ -2791,7 +2746,6 @@ GameObject:
   - component: {fileID: 1286299798}
   - component: {fileID: 1286299797}
   - component: {fileID: 1286299796}
-  - component: {fileID: 1286299800}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2897,18 +2851,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1286299800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1286299795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a0dc15f0f67f40a85899e736f02c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Controlador
 --- !u!1 &1404386983
 GameObject:
   m_ObjectHideFlags: 0
@@ -3130,7 +3072,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1286299800}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
         m_MethodName: CarregarCena
         m_Mode: 5
@@ -3489,7 +3431,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 705659157}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleSwitch, Assembly-CSharp
         m_MethodName: Toggle
         m_Mode: 1
@@ -3822,7 +3764,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 783434848}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleSwitch, Assembly-CSharp
         m_MethodName: Toggle
         m_Mode: 1

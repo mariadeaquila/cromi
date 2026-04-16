@@ -970,7 +970,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902087037}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
         m_MethodName: CarregarCena
         m_Mode: 5
@@ -1192,7 +1192,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902087037}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ControladorLogin, Assembly-CSharp
         m_MethodName: CarregarCena
         m_Mode: 5
@@ -1541,7 +1541,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902087038}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Login, Assembly-CSharp
         m_MethodName: Entrar
         m_Mode: 1
@@ -2670,7 +2670,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1781547814}
-  - component: {fileID: 1781547813}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2678,20 +2677,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1781547813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781547812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ea7a9eddd79c24a9e18bc6da8b45ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PermissaoBluetooth
-  cenaBluetooth: CenaBluetooth
-  cenaPermissaoNegada: CenaPermissaoNegada
 --- !u!4 &1781547814
 Transform:
   m_ObjectHideFlags: 0
@@ -2719,8 +2704,6 @@ GameObject:
   - component: {fileID: 1902087035}
   - component: {fileID: 1902087034}
   - component: {fileID: 1902087033}
-  - component: {fileID: 1902087037}
-  - component: {fileID: 1902087038}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2821,33 +2804,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1902087037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1902087032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a0dc15f0f67f40a85899e736f02c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ControladorLogin
---- !u!114 &1902087038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1902087032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c316ddb57dc436e4db96c4165788827e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Login
-  emailInput: {fileID: 1599995271}
-  senhaInput: {fileID: 187018445}
-  mensagem: {fileID: 1633147971}
 --- !u!1 &2007197097
 GameObject:
   m_ObjectHideFlags: 0
