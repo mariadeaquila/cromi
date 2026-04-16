@@ -1,4 +1,4 @@
-﻿using Android.BLE;
+using Android.BLE;
 using Android.BLE.Commands;
 using System.Text;
 using UnityEngine;
@@ -7,96 +7,104 @@ public class BluetoothColorConnector : MonoBehaviour
 {
     [Header("BLE")]
     [SerializeField] private string targetDeviceName = "cromia";
-
-    // 🔥 UUID FIXO (sem usar inspector bugado)
-    private string serviceUuid = "0000ffe0-0000-1000-8000-00805f9b34fb";
-    private string characteristicUuid = "0000ffe1-0000-1000-8000-00805f9b34fb";
+    [SerializeField] private string serviceUuid = "12345678-1234-1234-1234-1234567890ab";
+    [SerializeField] private string characteristicUuid = "12345678-1234-1234-1234-1234567890ac";
+    [SerializeField] private int scanTimeMs = 10000;
 
     [Header("Game")]
     [SerializeField] private ColorGameManager colorGameManager;
 
     private string deviceAddress = "";
+    private ConnectToDevice connectCommand;
+    private SubscribeToCharacteristic subscribeCommand;
     private bool isConnected = false;
 
-    void Start()
+    private void Start()
     {
         BleManager.Instance.Initialize();
-        Invoke(nameof(StartScan), 1f); // 🔥 delay evita bug
+        StartScan();
     }
 
-    void StartScan()
+    public void StartScan()
     {
-        Debug.Log("Procurando dispositivo...");
-        BleManager.Instance.QueueCommand(new DiscoverDevices(OnDeviceFound, 10000));
+        Debug.Log("Starting BLE scan...");
+        BleManager.Instance.QueueCommand(new DiscoverDevices(OnDeviceFound, scanTimeMs));
     }
 
-    void OnDeviceFound(string address, string name)
+    private void OnDeviceFound(string foundDeviceAddress, string foundDeviceName)
     {
-        Debug.Log("Encontrado: " + name);
+        Debug.Log($"Found device: {foundDeviceName} | {foundDeviceAddress}");
 
-        if (name == targetDeviceName)
+        if (foundDeviceName == targetDeviceName)
         {
-            deviceAddress = address;
+            deviceAddress = foundDeviceAddress;
             Connect();
         }
     }
 
-    void Connect()
+    private void Connect()
     {
-        if (isConnected) return;
+        if (isConnected || string.IsNullOrEmpty(deviceAddress))
+            return;
 
-        Debug.Log("Conectando...");
+        Debug.Log("Connecting to: " + deviceAddress);
 
-        BleManager.Instance.QueueCommand(
-            new ConnectToDevice(deviceAddress, OnConnected, OnDisconnected)
+        connectCommand = new ConnectToDevice(
+            deviceAddress,
+            OnConnected,
+            OnDisconnected
         );
+
+        BleManager.Instance.QueueCommand(connectCommand);
     }
 
-    void OnConnected(string address)
+    private void OnConnected(string connectedDeviceAddress)
     {
-        Debug.Log("Conectado!");
+        Debug.Log("Connected to: " + connectedDeviceAddress);
         isConnected = true;
-
-        // 🔥 espera antes de subscribe (ESSENCIAL)
-        Invoke(nameof(Subscribe), 1.5f);
+        Subscribe();
     }
 
-    void Subscribe()
+    private void OnDisconnected(string disconnectedDeviceAddress)
     {
-        Debug.Log("Subscribe iniciado...");
+        Debug.Log("Disconnected from: " + disconnectedDeviceAddress);
+        isConnected = false;
+        deviceAddress = "";
+    }
 
-        BleManager.Instance.QueueCommand(
-            new SubscribeToCharacteristic(
-                deviceAddress,
-                serviceUuid,
-                characteristicUuid,
-                OnDataReceived,
-                true
-            )
+    private void Subscribe()
+    {
+        if (string.IsNullOrEmpty(deviceAddress))
+            return;
+
+        Debug.Log("Subscribing to characteristic...");
+
+        subscribeCommand = new SubscribeToCharacteristic(
+            deviceAddress,
+            serviceUuid,
+            characteristicUuid,
+            OnCharacteristicChanged,
+            true
         );
+
+        BleManager.Instance.QueueCommand(subscribeCommand);
     }
 
-    void OnDataReceived(byte[] data)
+    private void OnCharacteristicChanged(byte[] value)
     {
-        if (data == null || data.Length == 0) return;
+        string received = Encoding.ASCII.GetString(value).Trim().ToUpper();
 
-        string msg = Encoding.ASCII.GetString(data).Trim().ToUpper();
-
-        Debug.Log("Recebido: " + msg);
+        Debug.Log("BLE received: " + received);
 
         if (colorGameManager != null)
         {
-            colorGameManager.ProcessDetectedColor(msg);
-        }
-        else
-        {
-            Debug.LogError("ColorGameManager NÃO conectado!");
+            colorGameManager.ProcessDetectedColor(received);
         }
     }
 
-    void OnDisconnected(string address)
+    private void OnDestroy()
     {
-        Debug.Log("Desconectado");
-        isConnected = false;
+        subscribeCommand?.Unsubscribe();
+        connectCommand?.Disconnect();
     }
 }

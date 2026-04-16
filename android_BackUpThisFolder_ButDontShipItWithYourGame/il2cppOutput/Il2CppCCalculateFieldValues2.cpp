@@ -34215,8 +34215,11 @@ struct BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D  : publ
 	String_t* ___targetDeviceName;
 	String_t* ___serviceUuid;
 	String_t* ___characteristicUuid;
+	int32_t ___scanTimeMs;
 	ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6* ___colorGameManager;
 	String_t* ___deviceAddress;
+	ConnectToDevice_tED9F7E213942CA91D6807368C9ECD9ACAC94D8E8* ___connectCommand;
+	SubscribeToCharacteristic_t3E9D73FC5CED7EEC8810B60279358199F2E0F252* ___subscribeCommand;
 	bool ___isConnected;
 };
 struct BluetoothManagerController_t21B03FE301EB9FB075B8FB4B8F8832085CAEA309  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -34239,14 +34242,12 @@ struct Cadastro_t1C221F85F05912200D79EE85E3BD96F40CFF1E98  : public MonoBehaviou
 };
 struct ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelPergunta;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelAcerto;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelErroAmarelo;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelErroAzul;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelErroVerde;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelErroRoxo;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelErroLaranja;
-	String_t* ___corEsperada;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelVermelho;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelAmarelo;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelVerde;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelAzul;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelRoxo;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelLaranja;
 };
 struct ControlesCenaDois_tAF5C440B9A04EC46E97BA53A631522644DF498E7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -44958,18 +44959,18 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8387[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8388[4] = 
 {
 	static_cast<int32_t>(offsetof(BateriaSimulada_t6D0032E913EBEB00B1D620D49BFB24472E54A6B2, ___bateriaTexto)),static_cast<int32_t>(offsetof(BateriaSimulada_t6D0032E913EBEB00B1D620D49BFB24472E54A6B2, ___tempoParaDiminuir)),static_cast<int32_t>(offsetof(BateriaSimulada_t6D0032E913EBEB00B1D620D49BFB24472E54A6B2, ___timer)),static_cast<int32_t>(offsetof(BateriaSimulada_t6D0032E913EBEB00B1D620D49BFB24472E54A6B2, ___bateria)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8389[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8389[9] = 
 {
-	static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___targetDeviceName)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___serviceUuid)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___characteristicUuid)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___colorGameManager)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___deviceAddress)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___isConnected)),};
+	static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___targetDeviceName)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___serviceUuid)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___characteristicUuid)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___scanTimeMs)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___colorGameManager)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___deviceAddress)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___connectCommand)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___subscribeCommand)),static_cast<int32_t>(offsetof(BluetoothColorConnector_tD9C77E1CB8841C76BD248EFD1DF28D3DADCD435D, ___isConnected)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8390[1] = 
 {
 	static_cast<int32_t>(offsetof(BluetoothManagerController_t21B03FE301EB9FB075B8FB4B8F8832085CAEA309, ___colorGameManager)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8391[7] = 
 {
 	static_cast<int32_t>(offsetof(Cadastro_t1C221F85F05912200D79EE85E3BD96F40CFF1E98, ___nomeInput)),static_cast<int32_t>(offsetof(Cadastro_t1C221F85F05912200D79EE85E3BD96F40CFF1E98, ___idadeInput)),static_cast<int32_t>(offsetof(Cadastro_t1C221F85F05912200D79EE85E3BD96F40CFF1E98, ___condicaoInput)),static_cast<int32_t>(offsetof(Cadastro_t1C221F85F05912200D79EE85E3BD96F40CFF1E98, ___emailInput)),static_cast<int32_t>(offsetof(Cadastro_t1C221F85F05912200D79EE85E3BD96F40CFF1E98, ___senhaInput)),static_cast<int32_t>(offsetof(Cadastro_t1C221F85F05912200D79EE85E3BD96F40CFF1E98, ___confirmarSenhaInput)),static_cast<int32_t>(offsetof(Cadastro_t1C221F85F05912200D79EE85E3BD96F40CFF1E98, ___mensagem)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8392[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8392[6] = 
 {
-	static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelPergunta)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelAcerto)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelErroAmarelo)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelErroAzul)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelErroVerde)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelErroRoxo)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelErroLaranja)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___corEsperada)),};
+	static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelVermelho)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelAmarelo)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelVerde)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelAzul)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelRoxo)),static_cast<int32_t>(offsetof(ColorGameManager_t2FEE712EB6163B5A062D3930A94DAF54F7B521D6, ___panelLaranja)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8394[9] = 
 {
 	static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___nomeInput)),static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___idadeInput)),static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___condicaoInput)),static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___emailInput)),static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___senhaInput)),static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___textoBotao)),static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___foto)),static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___foto2)),static_cast<int32_t>(offsetof(PerfilUsuario_tDB4A5AAF61003AD9C7DC38F6919FA90DBE914D27, ___editando)),};

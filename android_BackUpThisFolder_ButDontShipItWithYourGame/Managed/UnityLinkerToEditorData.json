@@ -51,62 +51,21 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioClip",
-            "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -119,19 +78,13 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
             "name": "AudioSource",
-            "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -140,12 +93,6 @@
             "scenes": [],
             "dependencyType": 1,
             "icon": null
-          },
-          {
-            "name": "Required by Video Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -167,26 +114,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -206,26 +134,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -245,26 +154,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -278,26 +168,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -329,26 +200,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -380,26 +232,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -413,23 +246,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -455,24 +272,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -486,24 +286,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -511,26 +294,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -568,24 +332,7 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -599,26 +346,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases 2.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TelaInicial.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -631,10 +359,8 @@
           },
           {
             "name": "Renderer",
-            "scenes": [
-              "Assets/Scenes/Fases 1.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -652,23 +378,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -694,24 +404,7 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -724,9 +417,7 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [
-              "Assets/Scenes/Fases 1.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -1023,12 +714,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.vr"
-          },
-          {
-            "name": "Required by Video Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.video"
           },
           {
             "name": "Required by XR Module",
@@ -1651,12 +1336,6 @@
             "icon": "package/com.unity.modules.vr"
           },
           {
-            "name": "Required by Video Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.video"
-          },
-          {
             "name": "Required by XR Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1722,12 +1401,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unitywebrequest"
-          },
-          {
-            "name": "Required by Video Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -1788,15 +1461,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1862,24 +1527,7 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1893,24 +1541,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/AtividadeVerde.unity",
-              "Assets/Scenes/AtividadeVermelho.unity",
-              "Assets/Scenes/Bemvindo.unity",
-              "Assets/Scenes/Cadastro.unity",
-              "Assets/Scenes/Configuracao.unity",
-              "Assets/Scenes/Fases 1.unity",
-              "Assets/Scenes/Fases.unity",
-              "Assets/Scenes/FasesCaminho.unity",
-              "Assets/Scenes/Login.unity",
-              "Assets/Scenes/PaginaInicial.unity",
-              "Assets/Scenes/perfil.unity",
-              "Assets/Scenes/PoliticadePrivacidade.unity",
-              "Assets/Scenes/Senha.unity",
-              "Assets/Scenes/SensorErroVermelho.unity",
-              "Assets/Scenes/SersorErroVerde.unity",
-              "Assets/Scenes/splashscreen.unity",
-              "Assets/Scenes/TermosdeUso.unity",
-              "Assets/Scenes/Termosecondicao.unity"
+              "Assets/Scenes/Bemvindo.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1920,12 +1551,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
-          },
-          {
-            "name": "Required by Video Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -2046,12 +1671,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unityanalytics"
-          },
-          {
-            "name": "Required by Video Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -2093,27 +1712,6 @@
       {
         "name": "VR",
         "dependencies": []
-      },
-      {
-        "name": "Video",
-        "dependencies": [
-          {
-            "name": "VideoClip",
-            "scenes": [
-              "Assets/Scenes/splashscreen.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "VideoPlayer",
-            "scenes": [
-              "Assets/Scenes/splashscreen.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          }
-        ]
       },
       {
         "name": "XR",
