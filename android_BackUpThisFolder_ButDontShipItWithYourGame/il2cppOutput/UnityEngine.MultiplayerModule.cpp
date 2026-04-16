@@ -77,7 +77,11 @@ struct CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_StaticFields
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+<<<<<<< HEAD
 // Method Definition Index: 72842
+=======
+// Method Definition Index: 72861
+>>>>>>> parent of c748579 (de)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayer_ReloadLatestTagsOnEnterPlaymode_mE780AB0F8B1693982575A991C87FB3689BDBDFCD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
